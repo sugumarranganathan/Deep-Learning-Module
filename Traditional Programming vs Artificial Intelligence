@@ -1,0 +1,78 @@
+Traditional Programming vs Artificial Intelligence
+
+| Feature          | Traditional Programming         | Artificial Intelligence (AI)          |
+| ---------------- | ------------------------------- | ------------------------------------- |
+| Working Method   | Human writes all rules manually | System learns from data automatically |
+| Logic            | Fixed logic                     | Learns and improves                   |
+| Data Handling    | Uses predefined conditions      | Finds patterns from data              |
+| Flexibility      | Less flexible                   | More flexible                         |
+| Decision Making  | Based on coded instructions     | Based on learning and prediction      |
+| Accuracy         | Good for fixed tasks            | Better for complex tasks              |
+| Learning Ability | Cannot learn automatically      | Can learn from experience             |
+| Best For         | Simple repetitive tasks         | Smart decision-making tasks           |
+
+
+========
+
+Simple Example
+Traditional Programming
+Problem:
+
+Check whether number is even or odd.
+
+Programmer writes rule:
+
+IF number % 2 == 0
+    Even
+ELSE
+    Odd
+
+
+Computer only follows instructions.
+
+
+===========
+
+Artificial Intelligence
+
+Problem:
+
+Face recognition in mobile phone.
+
+Programmer does not write rules for:
+
+Eyes
+Nose
+Face shape
+
+AI learns automatically from many images.
+==========
+
+
+Real-World Examples
+Traditional Programming	
+
+| Traditional Programming    | Artificial Intelligence |
+| -------------------------- | ----------------------- |
+| Calculator                 | Chatbot                 |
+| Billing software           | Voice assistant         |
+| Attendance system          | Face recognition        |
+| Banking transaction system | Fraud detection         |
+| Traffic signal timer       | Self-driving car        |
+
+=======
+
+Easy Analogy
+
+| Traditional Programming     | AI                           |
+| --------------------------- | ---------------------------- |
+| Teacher gives exact answers | Student learns by experience |
+
+
+========
+
+Traditional Programming follows fixed rules,
+while Artificial Intelligence learns from data and makes smart decisions.
+
+========
+
