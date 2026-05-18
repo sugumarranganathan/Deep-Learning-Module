@@ -1,0 +1,14 @@
+Deep Learning vs Machine Learning
+
+| Feature           | Machine Learning                            | Deep Learning                     |
+| ----------------- | ------------------------------------------- | --------------------------------- |
+| Definition        | AI system learns from data using algorithms | Advanced ML using neural networks |
+| Human Involvement | Human gives features manually               | Learns features automatically     |
+| Data Requirement  | Small or medium data is enough              | Needs very large data             |
+| Training Speed    | Faster                                      | Slower                            |
+| Hardware Need     | Normal computer works                       | Powerful GPU/computer needed      |
+| Accuracy          | Good for simple tasks                       | Better for complex tasks          |
+| Best For          | Prediction & classification                 | Images, speech, AI chatbots       |
+| Examples          | Loan prediction, spam detection             | Face recognition, ChatGPT         |
+| Algorithms        | Decision Tree, Random Forest                | CNN, RNN, LSTM, Transformer       |
+| Complexity        | Simple                                      | More complex                      |
