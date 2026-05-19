@@ -1,0 +1,40 @@
+An Activation Function decides whether a neuron should produce output or not.
+
+It is like a decision maker in a neural network.
+
+=========
+
+Simple Meaning
+
+After ANN calculates:
+
+Input × Weight + Bias
+
+the activation function checks:
+
+"Should this neuron activate?"
+
+Then it gives final output.
+
+========
+
+Flow in ANN
+
+Inputs
+   ↓
+Weights Applied
+   ↓
+Summation (Net Input)
+   ↓
+Activation Function
+   ↓
+Final Output
+
+============
+
+
+
+
+
+
+
