@@ -44,3 +44,14 @@ Better Prediction
 
 =========
 
+
+Input × Weight
+        ↓
+Add all results
+        ↓
+Send to output neuron
+
+=========
+
+
+
