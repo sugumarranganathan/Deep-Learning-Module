@@ -1,0 +1,92 @@
+(1) Learning Rate
+
+Learning Rate is a small value that controls:
+
+How much the ANN should update weights during learning
+
+It decides:
+
+how fast ANN learns
+how big the weight changes should be
+Simple Meaning
+
+After finding error:
+
+ANN updates weights
+
+Learning rate controls the update size.
+=========
+
+Formula
+
+New Weight=Old Weight−Learning Rate×Gradient
+
+Example
+
+Suppose:
+
+Old Weight = 0.8
+Gradient = 0.2
+Learning Rate = 0.1
+
+Calculation:
+
+New Weight = 0.8 - (0.1 × 0.2)
+= 0.8 - 0.02
+= 0.78
+
+===========
+(2) Gradient Descent
+
+Gradient Descent is an optimization algorithm used to:
+
+Reduce loss/cost function
+
+It helps ANN find best weights.
+
+Simple Meaning
+
+Gradient descent moves weights in the direction where error decreases.
+
+Goal:
+
+Minimum Error
+Working Process
+1. Predict output
+2. Calculate error
+3. Find gradient
+4. Update weights
+5. Repeat
+=======
+
+
+Real-Time Example 
+
+Imagine riding bicycle downhill.
+
+Goal:
+
+Reach lowest valley point
+
+Gradient descent:
+
+checks slope direction
+moves downward step by step
+finally reaches minimum error point
+
+========
+
+ANN Workflow
+Feedforward
+     ↓
+Loss Function
+     ↓
+Gradient Descent
+     ↓
+Update Weights
+     ↓
+Backpropagation
+     ↓
+Better Prediction
+
+===============
