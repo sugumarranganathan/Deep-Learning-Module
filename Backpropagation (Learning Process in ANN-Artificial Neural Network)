@@ -1,0 +1,24 @@
+Backpropagation — “Mistake Correction Phase”
+
+Now ANN checks whether the prediction is correct.
+
+If wrong:
+
+It learns from mistake
+Adjusts weights
+Improves next prediction
+=======
+
+Same Basket Ball Example 🏀
+
+After throwing:
+
+Ball misses basket
+
+Now what will you do?
+
+Change angle
+Change force
+Try better next time
+
+This correction process is called Backpropagation.
