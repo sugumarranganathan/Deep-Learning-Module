@@ -1,9 +1,11 @@
-| Concept        | Meaning                          | Used In           |
-| -------------- | -------------------------------- | ----------------- |
-| Loss Function  | Measures prediction error        | ANN Training      |
-| Cos Function   | Trigonometric cosine relation    | Graphics, Signals |
-| Linear Algebra | Matrix & vector mathematics      | Machine Learning  |
-| Chain Rule     | Derivative of combined functions | Backpropagation   |
+
+| Concept        | Meaning                                                 | Used In                                          |
+| -------------- | ------------------------------------------------------- | ------------------------------------------------ |
+| Loss Function  | Measures prediction error for a single training example | ANN Training                                     |
+| Cost Function  | Measures overall model error by averaging loss values   | Machine Learning, Neural Networks, Deep Learning |
+| Linear Algebra | Mathematics of vectors and matrices                     | Machine Learning, ANN, Deep Learning             |
+| Chain Rule     | Calculates derivatives of combined functions            | Backpropagation in Neural Networks               |
+
 
 
 ==========
