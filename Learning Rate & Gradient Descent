@@ -90,3 +90,16 @@ Backpropagation
 Better Prediction
 
 ===============
+
+| Learning Rate             | Gradient Descent     |
+| ------------------------- | -------------------- |
+| Controls step size        | Optimization method  |
+| Decides update speed      | Finds minimum error  |
+| Small numeric value       | Complete algorithm   |
+| Used during weight update | Used during training |
+
+
+==============
+
+
+
