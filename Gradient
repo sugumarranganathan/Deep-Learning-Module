@@ -1,0 +1,64 @@
+Gradient Meaning
+
+A Gradient means:
+
+Slope or direction of change
+
+=======
+
+In Machine Learning and ANN:
+
+gradient tells how much error changes
+helps ANN know how to update weights
+
+=======
+Simple Meaning in ANN
+
+Gradient tells:
+
+Which direction reduces error?
+Positive gradient → move left/down
+Negative gradient → move right/down
+
+Goal:
+
+Reach minimum error
+
+========
+
+
+Real-Life Example 
+
+Imagine standing on a mountain.
+
+You want to reach the lowest point.
+
+How do you know where to go?
+
+The slope tells direction.
+
+That slope is called:
+
+Gradient
+In Neural Networks
+
+================
+
+ANN calculates:
+
+prediction error
+gradient of error
+
+Then updates weights.
+
+Formula:
+
+Gradient=
+d(Weight) /
+d(Error)
+	​
+
+============
+
+
+
