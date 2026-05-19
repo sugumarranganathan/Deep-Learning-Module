@@ -1,0 +1,37 @@
+Feedforward — “Answer Trying Phase”
+
+ANN first tries to give an answer using the input data.
+
+Real-Time Example: You Throw a Ball into Basket 🏀
+
+You throw the ball toward the basket.
+
+At this moment:
+
+You are only trying
+You don’t know whether it is correct or wrong yet
+
+This is exactly Feedforward.
+
+=====
+
+
+Input → Network → Prediction(Output)
+
+======
+
+ANN Example
+
+Suppose:
+
+Input = Student studies 2 hours daily
+
+ANN predicts:
+
+"Student will PASS"
+
+Here ANN only gives prediction.
+No correction yet.
+
+
+
