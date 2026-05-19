@@ -1,0 +1,43 @@
+A Multiple Perceptron is an advanced type of ANN that contains:
+
+Input Layer
+One or more Hidden Layers
+Output Layer
+
+It is also called:
+
+Multi Layer Perceptron (MLP)
+
+==========
+
+Structure of Multiple Perceptron
+Input Layer
+      ↓
+Hidden Layer(s)
+      ↓
+Output Layer
+
+========
+
+Unlike Single Perceptron:
+
+MLP has hidden layers
+Can solve complex problems
+
+========
+
+Why Multiple Perceptron is Used?
+
+Single perceptron can solve only simple linear problems.
+
+MLP can solve:
+
+Image recognition
+Face detection
+Speech recognition
+Language translation
+
+========
+
+
+
