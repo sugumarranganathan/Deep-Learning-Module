@@ -30,7 +30,7 @@ Suppose ANN predicts student marks.
 Loss Function
 
 For Student A:
-
+Loss = Predicted - Actual = 10
 Loss = 90 - 80 = 10
 
 This checks only one student's error.
