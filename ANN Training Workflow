@@ -1,0 +1,132 @@
+ANN Training Workflow
+
+Input Layer
+      ↓
+Hidden Layer
+(Deep Learning)
+      ↓
+Output Layer
+      ↓
+Compare with Actual Output
+(Supervised Learning)
+      ↓
+Loss Function
+(Check one error)
+      ↓
+Cost Function
+(Check total error)
+      ↓
+Backpropagation
+(Update weights)
+      ↓
+Improved Prediction
+
+
+==========
+
+1) Deep Learning
+
+Your diagram contains:
+
+Input Layer
+Hidden Layer
+Output Layer
+
+Because it has hidden layers, it becomes:
+
+Deep Learning Network
+Connection
+More Hidden Layers = Deep Learning
+
+Single perceptron has no hidden layer.
+This diagram has hidden neurons, so it is Deep Learning.
+
+2) Supervised Learning
+
+In supervised learning:
+
+ANN gets input data
+Correct output(label) is already known
+
+Example:
+
+Input	Correct Output
+Student marks	Pass
+Email text	Spam
+Connection in Diagram
+
+Input layer gives data:
+
+0.3, 0.4, 0.2, 0.4, 0.6, 0.1
+
+Output layer compares prediction with actual answer.
+
+That is:
+
+Supervised Learning
+3) Loss Function
+
+Loss function measures error for one prediction.
+
+Example:
+
+Predicted Output = 0.9
+Actual Output = 1
+
+Loss calculates difference.
+
+Connection in Diagram
+
+After feedforward:
+
+ANN produces output
+Loss function checks:
+"How wrong is this output?"
+4) Cost Function
+
+Cost function is average of all losses.
+
+Connection
+Loss Function → Single prediction error
+Cost Function → Overall network error
+
+During training:
+
+ANN reduces cost function
+Accuracy improves
+
+=============
+
+Very Simple Real-Time Example
+
+Student Pass Prediction
+Input
+Study hours
+Attendance
+
+ANN predicts:
+PASS
+
+Actual answer:
+FAIL
+
+Now:
+
+Loss function checks one mistake
+Cost function checks all student prediction mistakes
+Backpropagation updates weights
+ANN learns
+
+==========
+
+One-Line Summary
+
+| Term                | Connected Meaning in Diagram     |
+| ------------------- | -------------------------------- |
+| Deep Learning       | Hidden layers present            |
+| Supervised Learning | Correct output already known     |
+| Loss Function       | Measures single prediction error |
+| Cost Function       | Measures total network error     |
+
+
+===========
