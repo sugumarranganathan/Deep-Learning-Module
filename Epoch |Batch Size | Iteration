@@ -130,6 +130,19 @@ Checking all 1000 papers once:
 1 Epoch
 ========
 
+Epoch = Greek name, meaing = A complete cycle or full round
+
+Iteration = One repeated step or one repetition (To repeat again and again)
+
+========
+
+
+| Term      | Name Meaning      | ANN Meaning                |
+| --------- | ----------------- | -------------------------- |
+| Epoch     | Full cycle        | Full dataset training once |
+| Iteration | One repeated step | One batch processing step  |
+
+
 
 
 
