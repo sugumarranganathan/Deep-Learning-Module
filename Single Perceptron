@@ -1,0 +1,118 @@
+Inputs → Weights → Summation → Activation Function → Output
+=====
+
+Single Perceptron (Single Layer Perceptron)
+
+A Single Perceptron is the most basic type of Artificial Neural Network (ANN).
+
+It contains:
+
+Input layer
+One neuron/output node
+No hidden layer
+
+It is mainly used for simple yes/no classification problems
+
+=======
+
+Simple Diagram
+X1 ----\
+        \
+X2 ------> [ Perceptron ] ---> Output
+        /
+X3 ----/
+
+Where:
+
+X1, X2, X3 = Inputs
+Weights = Importance of each input
+Output = Final prediction
+Real-Time Example
+Example: Pass or Fail Prediction
+
+Suppose:
+
+Study Hours
+Attendance
+
+are given as inputs.
+
+Input:
+Study Hours = 8
+Attendance = 90%
+
+The perceptron checks these values and predicts:
+
+Output = PASS
+
+If low marks and low attendance:
+
+Output = FAIL
+How Single Perceptron Works
+Step 1: Take Inputs
+
+Example:
+
+X1 = Study Hours
+X2 = Attendance
+Step 2: Multiply by Weights
+
+Each input has importance.
+
+Weighted Sum = (X1 × W1) + (X2 × W2)
+Step 3: Activation Function
+
+Perceptron decides:
+
+If value > threshold → 1
+Else → 0
+1 = PASS
+0 = FAIL
+Very Simple Real-Life Analogy
+Job Interview Selection
+
+HR checks:
+
+Communication skill
+Technical skill
+
+If both are good:
+
+Selected = YES
+
+Else:
+
+Selected = NO
+
+This yes/no decision is similar to a Single Perceptron
+
+=============
+
+Important Features
+
+| Feature      | Description           |
+| ------------ | --------------------- |
+| Layers       | Single layer          |
+| Hidden Layer | Not present           |
+| Output Type  | Yes/No                |
+| Used For     | Simple classification |
+| Example      | Spam/Not Spam         |
+
+
+==========
+
+Limitation
+
+Single perceptron can solve only linear problems.
+
+It cannot solve complex problems like:
+
+XOR problem
+Image recognition
+Speech recognition
+
+===========
+
+Single Perceptron is the simplest ANN model that makes a simple binary decision using inputs and weights
+
+===========
