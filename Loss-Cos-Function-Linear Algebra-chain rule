@@ -1,0 +1,10 @@
+| Concept        | Meaning                          | Used In           |
+| -------------- | -------------------------------- | ----------------- |
+| Loss Function  | Measures prediction error        | ANN Training      |
+| Cos Function   | Trigonometric cosine relation    | Graphics, Signals |
+| Linear Algebra | Matrix & vector mathematics      | Machine Learning  |
+| Chain Rule     | Derivative of combined functions | Backpropagation   |
+
+
+==========
+
