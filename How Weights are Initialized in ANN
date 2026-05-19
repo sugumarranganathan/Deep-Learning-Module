@@ -1,0 +1,46 @@
+Weights in ANN are usually initialized with small random values before training starts.
+
+Why Initialize Weights?
+
+Weights decide:
+
+How important each input is
+
+Before learning, ANN does not know anything.
+
+So initially:
+
+weights are set randomly
+then ANN learns and updates them during training
+=======
+
+Simple Example
+
+Suppose ANN has 2 inputs:
+
+X1 = Study Hours
+X2 = Attendance
+
+Initial weights may be:
+
+W1 = 0.2
+W2 = -0.1
+
+These are random small numbers.
+
+====
+
+Initialize Random Weights
+        ↓
+Feedforward
+        ↓
+Calculate Error
+        ↓
+Backpropagation
+        ↓
+Update Weights
+        ↓
+Better Prediction
+
+=========
+
