@@ -1,0 +1,140 @@
+1) Epoch
+
+An Epoch means:
+
+One complete pass of the entire dataset through the neural network
+
+Simple Meaning
+
+If ANN studies all training data once:
+
+= 1 Epoch
+
+=============
+
+
+Real-Time Example 
+
+Suppose:
+
+You have 100 pages to study
+
+If you read all 100 pages once:
+
+1 Epoch
+
+Reading all pages again:
+
+2 Epochs
+
+==================
+
+2) Batch Size
+
+Batch Size means:
+
+Number of training samples processed at one time
+
+Instead of sending all data together, ANN divides data into small groups.
+
+Example
+
+Suppose dataset has:
+
+1000 images
+
+Batch size:
+
+100
+
+Then ANN processes:
+
+100 images at a time
+
+=======
+
+Real-Time Example 
+
+Suppose waiter serves food.
+
+Total plates = 100
+Carries 10 plates at a time
+
+Here:
+
+Batch Size = 10
+
+=========
+
+3) Iteration
+
+Iteration means:
+
+One update of weights using one batch
+
+Each batch processing = one iteration.
+
+Formula Relation
+
+Iterations=
+
+Dataset Size / Batch Size
+
+======
+
+Example
+
+Suppose:
+
+Dataset = 1000 images
+Batch size = 100
+
+Then:
+
+Iterations = 1000 / 100 = 10
+
+Meaning:
+
+10 iterations complete 1 epoch
+
+===========
+
+Full Connection
+
+Dataset
+   ↓
+Divide into batches
+   ↓
+Each batch processed = 1 Iteration
+   ↓
+All batches completed = 1 Epoch
+
+==============
+
+Complete Real-Time Example 
+
+Suppose:
+
+Teacher has 1000 answer sheets
+========
+Batch Size
+Teacher checks:
+100 papers at a time
+========
+Iteration
+Checking one batch of 100 papers:
+1 Iteration
+========
+Epoch
+Checking all 1000 papers once:
+1 Epoch
+========
+
+
+
+
+
+
+
+
+
