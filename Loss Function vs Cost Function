@@ -1,0 +1,59 @@
+Loss Function vs Cost Function
+
+
+| Feature      | Loss Function                           | Cost Function                             |
+| ------------ | --------------------------------------- | ----------------------------------------- |
+| Meaning      | Measures error for one training example | Measures overall error for entire dataset |
+| Purpose      | Checks single prediction mistake        | Checks total model performance            |
+| Scope        | Individual data point                   | Average of all losses                     |
+| Used In      | Training one sample                     | Optimizing whole model                    |
+| Formula Idea | Single error calculation                | Average/Sum of all losses                 |
+| Output       | Error value for one prediction          | Overall network error                     |
+
+
+============
+
+Simple Example
+
+Suppose ANN predicts student marks.
+
+| Student | Actual | Predicted |
+| ------- | ------ | --------- |
+| A       | 80     | 90        |
+| B       | 70     | 75        |
+| C       | 60     | 50        |
+
+
+==============
+
+
+Loss Function
+
+For Student A:
+
+Loss = 90 - 80 = 10
+
+This checks only one student's error.
+
+Cost Function
+
+Checks total error of all students.
+
+Example:
+
+Average of all losses
+
+Formula:
+
+Cost=\frac{1}{n}\sum Loss
+
+Easy Real-Life Analogy
+==========
+Loss Function
+Teacher checks:
+One student's mistake
+==========
+Cost Function
+Teacher checks:
+Whole class performance
+==========
