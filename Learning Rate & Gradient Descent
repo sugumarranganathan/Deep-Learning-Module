@@ -101,5 +101,16 @@ Better Prediction
 
 ==============
 
+One-Line Definitions
+Learning Rate controls how much weights change during learning.
+Gradient Descent is an algorithm used to minimize error by updating weights step by step.
+
+===============
+
+
+
+
+
+
 
 
