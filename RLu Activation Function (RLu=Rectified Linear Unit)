@@ -1,0 +1,140 @@
+ReLU stands for:
+
+Rectified Linear Unit
+
+It is one of the most commonly used activation functions in Deep Learning.
+
+=====
+
+
+Formula
+
+ReLU(x)=max(0,x)
+
+=========
+
+
+Simple Meaning
+
+ReLU checks the input value:
+
+If value is positive → keep it same
+If value is negative → convert to 0
+
+======
+Working Rule
+
+| Input (x) | Output |
+| --------- | ------ |
+| x > 0     | x      |
+| x < 0     | 0      |
+
+
+========
+
+Example 1 (Positive Value)
+Input = 8
+
+Calculation:
+
+ReLU = max(0, 8)
+= 8
+
+Output:
+
+8
+Example 2 (Negative Value)
+Input = -5
+
+Calculation:
+
+ReLU = max(0, -5)
+= 0
+
+Output:
+
+0
+Graph Meaning
+
+The ReLU graph works like this:
+
+Negative side → flat at 0
+Positive side → straight line
+Negative Inputs → 0
+Positive Inputs → Same Value
+Why ReLU is Important?
+
+ReLU helps neural networks:
+
+Learn faster
+Reduce complexity
+Avoid vanishing gradient problem
+Improve Deep Learning performance
+
+===========
+
+Real-Time Example
+Student Marks Filtering
+
+Suppose:
+
+Negative marks are not allowed
+
+If score becomes:
+
+-3
+
+ReLU converts it to:
+
+0
+
+If score is:
+
+7
+
+ReLU keeps:
+
+7
+ANN Flow with ReLU
+Input
+  ↓
+Weights Applied
+  ↓
+Net Input
+  ↓
+ReLU Activation Function
+  ↓
+Output
+====
+
+
+Advantages of ReLU
+
+| Advantage | Meaning                       |
+| --------- | ----------------------------- |
+| Simple    | Easy calculation              |
+| Fast      | Faster training               |
+| Efficient | Works well in deep networks   |
+| Popular   | Most used activation function |
+
+
+============
+
+Limitation
+
+Sometimes neurons may stop learning if output always becomes 0.
+
+This is called:
+
+Dying ReLU Problem
+
+============
+
+One-Line Definition
+ReLU is an activation function that returns the input value if positive, otherwise returns 0.
+
+==========
+
+
+
+
