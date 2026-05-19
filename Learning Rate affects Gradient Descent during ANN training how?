@@ -1,0 +1,64 @@
+“Learning rate too slow”
+
+Here:
+
+ANN takes very small steps
+Learning happens slowly
+
+Because learning rate is small:
+
+training is safe
+but takes more time
+
+Small Learning Rate = Slow Learning
+------
+Real-Life Example 
+
+Walking down stairs:
+
+taking tiny steps
+safe
+but very slow
+=========
+
+“Learning rate too fast”
+
+Here:
+
+ANN takes very large jumps
+skips the target area
+
+Meaning
+Large Learning Rate = Unstable Learning
+
+========
+
+Real-Life Example 
+
+Trying to stop at a point while running fast:
+
+you cross the target
+move back again
+miss again
+
+Same happens in ANN.
+
+=============
+
+| Term                | Meaning                   |
+| ------------------- | ------------------------- |
+| Gradient Descent    | Method to reduce error    |
+| Learning Rate       | Step size during learning |
+| Target Point        | Minimum loss/error        |
+| Small Learning Rate | Slow but stable           |
+| Large Learning Rate | Fast but unstable         |
+
+==========
+
+
+
+
+
+
+
+
