@@ -1,0 +1,53 @@
+(1) ANN Visual Video from 3 Blue 1 Brown
+---------------------------------------
+ANN stands for Artificial Neural Network.
+It is inspired by the human brain’s neuron structure.
+The network contains input, hidden, and output layers.
+Each neuron is connected using weights and biases.
+Input data moves layer by layer through the network.
+Hidden layers help detect patterns from data.
+The output layer gives the final prediction result.
+ANN learns by adjusting weights during training.
+It is widely used in machine learning and deep learning.
+Example applications include image recognition and speech recognition.
+
+==============
+
+(2) Gradient Descent, How Neural Networks Learn | Chapter 2, Deep Learning
+---------------------------------------------------------------------------
+Gradient Descent is a learning algorithm used in neural networks.
+Its main goal is to reduce prediction error.
+The network first makes a prediction.
+A cost function measures how wrong the prediction is.
+Gradient tells the direction of maximum error reduction.
+Weights and biases are updated step by step.
+The process repeats many times during training.
+Over time, prediction accuracy improves.
+It works like a ball rolling downhill toward the lowest point.
+Gradient Descent is one of the core concepts in deep learning.
+
+==============================================================================
+
+
+3) What is Backpropagation Really Doing? | Chapter 3, Deep Learning
+---------------------------------------------------------------------------
+Backpropagation is the main training process of neural networks.
+It helps the network learn from mistakes.
+The process starts after calculating prediction error.
+Error information moves backward through the layers.
+The output layer is adjusted first.
+Hidden layers are corrected one by one afterward.
+Important weights receive larger adjustments.
+Less important connections receive smaller changes.
+Backpropagation works together with Gradient Descent.
+This process helps neural networks become more accurate over time.
+
+
+===========
+
+
+
+
+
+
+
