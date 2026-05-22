@@ -1,0 +1,274 @@
+Metrics are used to measure:
+
+"How well the model is performing."
+
+Different problems use different metrics.
+
+=====================
+
+| Metric Type           | Used For                 | Example    |
+| --------------------- | ------------------------ | ---------- |
+| Accuracy Metrics      | Classification           | Accuracy   |
+| Probabilistic Metrics | Probability prediction   | Log Loss   |
+| Regression Metrics    | Number prediction        | MSE        |
+| TP/TN Metrics         | Important classification | Precision  |
+| Segmentation Metrics  | Pixel prediction         | IoU        |
+| Hinge Metrics         | SVM                      | Hinge Loss |
+
+
+==========================
+
+
+1️⃣ Accuracy Metrics
+
+Used for:
+
+Classification problems
+
+Checks:
+
+How many predictions are correct.
+
+Accuracy Formula
+
+Accuracy=
+
+(Correct Predictions/Total Predictions) x 100
+
+Example
+
+| Total Images | Correct Predictions |
+| ------------ | ------------------- |
+| 100          | 92                  |
+
+Accuracy = 92%
+
+========================================
+
+Real-time Example
+
+Like:
+
+Exam score percentage.
+
+=======================================
+
+2️⃣ Probabilistic Metrics
+
+Used when:
+
+Model predicts probabilities
+
+Measures:
+
+Confidence quality of predictions
+Common Metrics
+Cross Entropy
+Log Loss
+Example
+
+Prediction:
+
+Cat = 0.95
+Dog = 0.05
+
+Good probability prediction → low loss
+
+Real-time Example
+
+Like:
+
+Weather app saying:
+"95% chance of rain"
+
+===========================
+
+3️⃣ Regression Metrics
+
+Used for:
+
+Continuous number prediction
+
+Examples:
+
+House price prediction
+Temperature prediction
+
+
+Common Regression Metrics
+-------------------------
+
+| Metric | Meaning                 |
+| ------ | ----------------------- |
+| MAE    | Mean Absolute Error     |
+| MSE    | Mean Squared Error      |
+| RMSE   | Root Mean Squared Error |
+
+
+======================
+
+Example
+Actual Price = ₹10 lakh
+Predicted = ₹9 lakh
+
+Error = ₹1 lakh
+
+MSE Formula
+
+MSE=n1​∑i=1n​(yi​−y^​i​)2
+
+Real-time Example
+
+Like:
+
+Difference between estimated bill and actual bill.
+
+======================
+
+4️⃣ Classification Metrics Based on True/False Positives & Negatives
+
+Used when:
+
+Accuracy alone is not enough
+
+Important in:
+
+Medical diagnosis
+Fraud detection
+Spam filtering
+
+Four Important Terms
+-------------------
+
+| Term                | Meaning                 |
+| ------------------- | ----------------------- |
+| True Positive (TP)  | Correctly predicted YES |
+| True Negative (TN)  | Correctly predicted NO  |
+| False Positive (FP) | Wrong YES prediction    |
+| False Negative (FN) | Wrong NO prediction     |
+
+
+============================
+
+Common Metrics
+
+| Metric    | Purpose                       |
+| --------- | ----------------------------- |
+| Precision | Correct positive predictions  |
+| Recall    | Finding all positives         |
+| F1 Score  | Balance of precision & recall |
+
+============================
+
+Precision Formula
+
+Precision=
+
+TP / TP+FP
+	​
+-----------------
+
+Recall Formula
+
+Recall=
+
+TP / TP+FN
+
+=================
+
+Real-time Example
+Spam Detection
+FP → Important email becomes spam
+FN → Spam enters inbox
+
+============================
+
+5️⃣ Image Segmentation Metrics
+
+Used in:
+
+Object boundary detection
+Medical imaging
+Self-driving cars
+
+Model predicts:
+
+Pixel-by-pixel classification
+
+Common Metrics
+---------------
+
+| Metric           | Meaning                 |
+| ---------------- | ----------------------- |
+| IoU              | Intersection over Union |
+| Dice Coefficient | Similarity score        |
+
+
+=======================
+
+IoU Formula
+
+IoU = \frac{\text{Intersection}}{\text{Union}
+
+Real-time Example
+
+Like:
+
+Comparing actual object outline vs predicted outline.
+
+==============
+
+6️⃣ Hinge Metrics (Maximum-Margin Classification)
+
+Used mainly in:
+
+Support Vector Machines (SVM)
+
+Goal:
+
+Create maximum distance between classes.
+
+Hinge Loss Formula
+
+Hinge Loss=max(0,1−y⋅f(x))
+
+Real-time Example
+
+Like:
+
+Keeping two teams separated with large gap.
+
+===========================================
+
+Easy Real-Time Understanding
+----------------------------
+
+| Problem                | Metric Used |
+| ---------------------- | ----------- |
+| Digit Recognition      | Accuracy    |
+| Weather Probability    | Log Loss    |
+| House Price Prediction | MSE         |
+| Cancer Detection       | Recall      |
+| Self-Driving Cars      | IoU         |
+| SVM Classification     | Hinge Loss  |
+
+
+=========================================
+
+
+
+
+	​
+
+
+
+
+
+
+
+
+
+
+
+	​
+
