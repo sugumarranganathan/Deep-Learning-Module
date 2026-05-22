@@ -1,0 +1,190 @@
+Types of Loss Functions
+
+Loss Function means:
+
+"How much error the model made."
+
+Smaller loss = Better prediction
+
+1️⃣ Probabilistic Losses
+
+Used when:
+
+Model predicts probabilities
+
+Mostly used in:
+
+Classification problems
+
+Examples:
+
+Digit recognition
+Cat vs Dog
+Spam detection
+
+============================
+
+Common Probabilistic Losses
+
+| Loss Function            | Used For         |
+| ------------------------ | ---------------- |
+| Binary Crossentropy      | 2 classes        |
+| Categorical Crossentropy | Multiple classes |
+
+
+Example
+
+Actual digit = 5
+
+Prediction:
+
+| Digit | Probability |
+| ----- | ----------- |
+| 5     | 0.95        |
+
+Very good prediction → Low loss
+
+If:
+
+| Digit | Probability |
+| ----- | ----------- |
+| 2     | 0.90        |
+
+Wrong prediction → High loss
+Real-time Example
+
+Like:
+
+Weather app predicting rain probability.
+
+
+==================
+
+2️⃣ Regression Losses
+
+Used when:
+
+Predicting continuous numbers
+
+Examples:
+
+House price
+Temperature
+Stock price
+
+
+Common Regression Losses
+-----------------------
+
+| Loss Function | Meaning                 |
+| ------------- | ----------------------- |
+| MAE           | Mean Absolute Error     |
+| MSE           | Mean Squared Error      |
+| RMSE          | Root Mean Squared Error |
+
+===============
+
+MSE (Most Common)
+
+Measures:
+
+Average squared error
+
+-----------------
+Example
+
+Actual price = ₹10 lakh
+Predicted = ₹9 lakh
+
+Error = ₹1 lakh
+
+Loss calculates this error mathematically.
+
+Real-time Example
+
+Like:
+
+Difference between estimated budget and actual expense.
+
+=========================
+
+3️⃣ Hinge Losses ("Maximum-Margin" Classification)
+
+Used mainly in:
+
+Support Vector Machines (SVM)
+
+Goal:
+
+Separate classes with maximum distance.
+
+Idea
+
+Correct predictions:
+
+Small loss
+
+Wrong predictions:
+
+Large loss
+
+Hinge Loss Formula
+
+Hinge Loss=max(0,1−y⋅f(x))
+
+Where:
+
+y = actual label
+f(x) = prediction
+
+Real-time Example
+
+Like:
+
+Keeping two teams separated with a safety gap.
+
+Simple Comparison Table
+-----------------------
+
+| Loss Type          | Used For           | Example      |
+| ------------------ | ------------------ | ------------ |
+| Probabilistic Loss | Classification     | Crossentropy |
+| Regression Loss    | Number prediction  | MSE          |
+| Hinge Loss         | SVM classification | Hinge Loss   |
+
+
+=====================
+
+Easy Real-Time Understanding
+
+| Problem                | Loss Function            |
+| ---------------------- | ------------------------ |
+| Digit Recognition      | Categorical Crossentropy |
+| Cat vs Dog             | Binary Crossentropy      |
+| House Price Prediction | MSE                      |
+| SVM Classification     | Hinge Loss               |
+
+
+================================
+
+Full Flow
+---------
+
+Prediction
+     ↓
+Loss Function Calculates Error
+     ↓
+Optimizer Corrects Weights
+     ↓
+Model Improves
+
+
+
+
+
+
+
+
+
+
+
