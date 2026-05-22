@@ -1,0 +1,293 @@
+Optimizers in Deep Learning
+
+Optimizer means:
+
+"Method used to update weights and reduce errors."
+
+After every prediction:
+
+Loss function calculates error
+Optimizer corrects weights
+
+Different optimizers use different techniques to learn faster and better.
+
+========================================
+
+1️⃣ SGD (Stochastic Gradient Descent)
+
+Full Name:
+
+Stochastic Gradient Descent
+
+Works:
+
+Updates weights little by little
+
+================
+
+Simple idea:
+
+Wrong Prediction
+      ↓
+Small Correction
+      ↓
+Repeat Again
+
+==================
+
+Advantages
+
+✅ Simple
+✅ Uses less memory
+
+Disadvantages
+
+❌ Slow learning
+❌ Can get stuck
+
+Real-time Example
+
+Like:
+
+Climbing down a hill step by step slowly.
+
+2️⃣ RMSprop
+
+Full Name:
+
+Root Mean Square Propagation
+
+Works:
+
+Adjusts learning speed automatically
+Advantages
+
+✅ Faster than SGD
+✅ Good for deep learning
+
+Disadvantages
+
+❌ Slightly complex
+
+Real-time Example
+
+Like:
+
+Walking slowly on rough road and faster on smooth road.
+
+3️⃣ Adam
+
+Full Name:
+
+Adaptive Moment Estimation
+
+Combination of:
+
+Momentum
+RMSprop
+
+Most popular optimizer.
+
+Advantages
+
+✅ Fast
+✅ Smart learning
+✅ Works well in most problems
+
+Disadvantages
+
+❌ Uses more memory
+
+Real-time Example
+
+Like:
+
+Smart teacher correcting mistakes efficiently.
+
+4️⃣ AdamW
+
+Improved version of Adam.
+
+Extra feature:
+
+Prevents overfitting better
+
+"W" means:
+
+Weight Decay
+Advantages
+
+✅ Better generalization
+✅ Used in Transformers, LLMs
+
+Real-time Example
+
+Like:
+
+Strict teacher preventing bad habits.
+
+5️⃣ Adadelta
+
+Works:
+
+Automatically changes learning rate
+Advantages
+
+✅ No need manual learning rate tuning
+
+Disadvantages
+
+❌ Sometimes slower
+
+Real-time Example
+
+Like:
+
+Automatic bike gear adjustment.
+
+6️⃣ Adagrad
+
+Works:
+
+Gives different learning rates for different weights
+
+Good for:
+
+Sparse data
+NLP tasks
+Advantages
+
+✅ Good for text data
+
+Disadvantages
+
+❌ Learning becomes very slow later
+
+Real-time Example
+
+Like:
+
+Paying more attention to weak subjects.
+
+7️⃣ Adamax
+
+Variant of Adam based on infinity norm.
+
+Advantages
+
+✅ Stable for some datasets
+
+Disadvantages
+
+❌ Less commonly used
+
+Real-time Example
+
+Like:
+
+Stronger version of Adam for extreme situations.
+
+8️⃣ Adafactor
+
+Memory-efficient optimizer.
+
+Mostly used in:
+
+Large Language Models
+Transformers
+Advantages
+
+✅ Uses less memory
+✅ Good for huge models
+
+Disadvantages
+
+❌ Complex
+
+Real-time Example
+
+Like:
+
+Compact storage system for large companies.
+
+9️⃣ Nadam
+
+Combination of:
+
+Adam
+Nesterov Momentum
+Advantages
+
+✅ Faster convergence
+✅ Smooth learning
+
+Disadvantages
+
+❌ More calculations
+
+Real-time Example
+
+Like:
+
+Predicting next step before moving.
+
+🔟 Ftrl
+
+Full Name:
+
+Follow The Regularized Leader
+
+Mostly used in:
+
+Recommendation systems
+Ads systems
+Advantages
+
+✅ Works well with huge sparse data
+
+Disadvantages
+
+❌ Not common for image tasks
+
+Real-time Example
+
+Like:
+
+Online shopping recommendation engine.
+
+============
+
+Simple Comparison Table
+----------------------
+
+| Optimizer | Speed      | Popularity | Best Use               |
+| --------- | ---------- | ---------- | ---------------------- |
+| SGD       | Slow       | Medium     | Basic learning         |
+| RMSprop   | Medium     | High       | RNN                    |
+| Adam      | Fast       | Very High  | Most projects          |
+| AdamW     | Fast       | Very High  | Transformers           |
+| Adadelta  | Medium     | Medium     | Auto LR                |
+| Adagrad   | Slow later | Medium     | NLP                    |
+| Adamax    | Fast       | Low        | Special cases          |
+| Adafactor | Fast       | High       | Large models           |
+| Nadam     | Fast       | Medium     | Smooth training        |
+| Ftrl      | Medium     | Medium     | Recommendation systems |
+
+
+========================
+
+Most Commonly Used
+------------------
+
+| Task                 | Optimizer         |
+| -------------------- | ----------------- |
+| Beginner Projects    | Adam              |
+| Image Classification | Adam              |
+| Deep Learning        | Adam              |
+| LLM / Transformers   | AdamW / Adafactor |
+| NLP Sparse Data      | Adagrad           |
+| Very Simple Models   | SGD               |
+
+
+================================================
+
