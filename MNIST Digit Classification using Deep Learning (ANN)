@@ -1,0 +1,36 @@
+Overall Workflow
+
+Load Dataset
+      ↓
+Separate Training and Testing Data
+      ↓
+Visualize Images
+      ↓
+Check Dataset Shape
+      ↓
+Reshape Images (28×28 → 784)
+      ↓
+Apply One-Hot Encoding
+      ↓
+Create ANN Model
+      ↓
+Compile Model
+      ↓
+Train Model
+      ↓
+Predict Test Images
+      ↓
+Convert Probabilities using argmax()
+      ↓
+Evaluate Model
+      ↓
+Confusion Matrix
+      ↓
+Classification Report
+      ↓
+Accuracy/Loss Graph
+      ↓
+Predict Single Image
+
+=============
+
