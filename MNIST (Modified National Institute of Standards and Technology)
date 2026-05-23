@@ -1,0 +1,34 @@
+MNIST stands for:
+
+M → Modified
+N → National
+I → Institute of
+S → Standards and
+T → Technology
+
+Simple explanation:
+
+MNIST is a dataset containing handwritten digit images (0–9) used to train and test machine learning models.
+
+Features:
+
+60,000 training images
+10,000 testing images
+Image size = 28 × 28 pixels
+Digits = 0–9
+
+Example:
+
+Image → Handwritten 5
+Model → Predicts 5
+
+Uses of MNIST:
+
+✅ Learn machine learning and deep learning
+✅ Train ANN/CNN models
+✅ Handwritten digit recognition
+✅ Test image classification algorithms
+
+One-line definition:
+
+MNIST is a collection of handwritten digit images used for training and testing AI models.
