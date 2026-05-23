@@ -32,3 +32,55 @@ Uses of MNIST:
 One-line definition:
 
 MNIST is a collection of handwritten digit images used for training and testing AI models.
+=============
+
+
+Many people think "Modified National Institute of Standards and Technology (MNIST)" is an organization. It is not.
+
+The real organization is: National Institute of Standards and Technology
+
+Country:
+
+United States 🇺🇸
+
+Story:
+
+📖 In the early 1990s, the U.S. government wanted computers to automatically read handwritten numbers from documents, forms, postal ZIP codes, and census papers.
+
+So NIST collected many handwritten digit samples from:
+
+U.S. Census employees
+High school students
+
+****The original data was large and not ideal for machine learning experiments. Then researchers such as Yann LeCun and colleagues reorganized and cleaned the dataset:
+
+resized images to 28 × 28 pixels
+centered the digits
+standardized the format
+split data into training and testing sets
+
+Because the original NIST dataset was modified, it became:
+
+Modified + NIST
+      ↓
+MNIST
+
+Final result:
+
+60,000 → Training images
+10,000 → Testing images
+Digits → 0–9
+
+Today MNIST became one of the most famous datasets used to learn:
+
+✅ Machine Learning
+✅ Deep Learning
+✅ ANN/CNN
+✅ Image Classification
+
+Short conclusion:
+
+MNIST was created in the United States by modifying NIST handwritten digit data to make it easier for AI systems to learn digit recognition.
+
+============
+
