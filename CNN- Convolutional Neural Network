@@ -1,1 +1,195 @@
+A Convolutional Neural Network (CNN) is a type of 
+deep learning model mainly used for processing images and other grid-like data (like videos or spectrograms). 
+It’s widely used in computer vision tasks such as image classification, object detection, and facial recognition.
+
+===============
+
+What makes CNNs special?
+
+Unlike regular neural networks, CNNs are designed to automatically detect important features (like edges, shapes, textures) 
+from raw input—without manual feature engineering.
+
+===============
+| Step | Layer                 | Purpose                                                      |
+| ---- | --------------------- | ------------------------------------------------------------ |
+| 1    | Input Image           | Original image is given to the CNN model                     |
+| 2    | Convolution           | Extracts important features like edges, shapes, and patterns |
+| 3    | ReLU Activation       | Removes negative values and adds non-linearity               |
+| 4    | Pooling               | Reduces image size and keeps important information           |
+| 5    | Convolution           | Detects more complex features from previous layers           |
+| 6    | Pooling               | Further reduces dimensions and computation                   |
+| 7    | Flatten               | Converts 2D feature maps into a 1D vector                    |
+| 8    | Fully Connected Layer | Learns relationships between extracted features              |
+| 9    | Output Prediction     | Predicts the final class (e.g., digit 0–9)                   |
+
+
+==================
+
+1️⃣ Input Layer
+
+The input image size is:
+
+28×28×1
+
+28×28×1
+
+28 × 28 → image height and width
+1 → grayscale channel
+
+Example:
+A handwritten digit image (like “2”).
+
+==============
+
+2️⃣ Convolution Layer 1 (Conv_1)
+
+The diagram shows:
+
+5×5 kernel
+
+5×5
+
+What happens:
+
+CNN applies small filters over the image.
+Detects:
+edges
+curves
+lines
+shapes
+
+Output size becomes:
+
+24×24×n1
+
+24×24×n1
+
+Where:
+
+n1 = number of filters/features detected
+
+==========
+
+3️⃣ Max Pooling Layer
+
+Pooling size:
+
+2×2
+
+2×2
+
+Purpose:
+
+Reduces image size
+Keeps important features
+Reduces computation
+
+Output becomes:
+
+12×12×n1
+
+12×12×n1
+
+============
+
+4️⃣ Second Convolution Layer (Conv_2)
+
+Again applies:
+
+5×5
+
+5×5
+
+Now CNN learns more complex features:
+
+digit shapes
+corners
+combinations of patterns
+
+Output:
+
+8×8×n2
+
+8×8×n2
+
+=================
+
+5️⃣ Second Pooling Layer
+
+Again reduces size using:
+
+2×2
+
+2×2
+
+Output:
+
+4×4×n2
+
+4×4×n2
+
+=================
+
+6️⃣ Flatten Layer
+
+The 3D feature maps are converted into a 1D vector.
+
+Example:
+
+4×4×n2→Flattened Vector
+
+4×4×n2→Flattened Vector
+
+This prepares data for classification.
+
+=================
+
+7️⃣ Fully Connected Layer
+
+This works like a traditional neural network.
+
+It learns:
+
+which features belong to which digit
+
+Uses:
+
+weights
+biases
+activation functions (ReLU)
+
+
+================
+
+8️⃣ Output Layer
+
+Final output nodes:
+
+0 → 9
+
+The CNN predicts which digit is present.
+
+Example:
+
+Highest probability = 7
+Output prediction = digit “7”
+
+=================
+
+Why CNN is Powerful Here
+
+Compared to ANN:
+
+CNN automatically extracts image features
+ANN treats every pixel independently
+CNN preserves spatial relationships
+
+That’s why:
+
+ANN accuracy may stay around 20–40%
+CNN can achieve 95–99% accuracy on image tasks
+
+================
+
+
 
