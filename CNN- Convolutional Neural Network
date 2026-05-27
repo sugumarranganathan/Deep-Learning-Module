@@ -191,5 +191,83 @@ CNN can achieve 95–99% accuracy on image tasks
 
 ================
 
+The word “Convolutional” in Convolutional Neural Network (CNN) comes from the mathematical operation called Convolution.
+
+Meaning of “Convolution”
+-------------------------
+
+Convolution means:
+
+Applying a small filter (kernel) over input data to extract important features.
+
+In CNN:
+
+A small matrix called a filter/kernel moves across the image.
+It checks small regions one by one.
+It detects patterns like:
+edges
+curves
+textures
+shapes
+
+===================
+
+Simple Example
+
+Suppose we have an image:
+
+🟦🟦🟦
+🟦⬛🟦
+🟦🟦🟦
+
+A filter slides over the image and identifies:
+
+vertical lines
+horizontal lines
+corners
+
+This sliding operation is called Convolution.
+
+Why the Name “Convolutional Neural Network”?
+
+Because the network mainly uses:
+
+Convolution operations
+through Convolution Layers
+
+So it is called:
+
+Convolutional Neural Network
+
+===================
+
+
+Simple Real-Life Analogy
+-----------------------
+
+Imagine:
+
+You are reading a newspaper using a magnifying glass.
+You scan small areas one at a time.
+You identify letters and patterns.
+
+CNN does the same with images using filters.
+===================
+
+In Short
+
+| Term          | Meaning                                                 |
+| ------------- | ------------------------------------------------------- |
+| Convolution   | Sliding filter operation to detect features             |
+| Convolutional | Using convolution operations                            |
+| CNN           | Neural network specialized for image feature extraction |
+
+
+=================
+
+
+
+
+
 
 
