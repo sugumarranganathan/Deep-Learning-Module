@@ -1,0 +1,90 @@
+ANN vs CNN
+===========
+
+
+| Feature                  | ANN (Artificial Neural Network) | CNN (Convolutional Neural Network)     |
+| ------------------------ | ------------------------------- | -------------------------------------- |
+| Full Form                | Artificial Neural Network       | Convolutional Neural Network           |
+| Mainly Used For          | Structured data, tabular data   | Images, videos, visual data            |
+| Input Handling           | Treats all pixels independently | Preserves image spatial structure      |
+| Feature Extraction       | Manual or limited               | Automatic feature extraction           |
+| Layers Used              | Fully connected layers          | Convolution, Pooling, Fully Connected  |
+| Image Processing Ability | Weak                            | Very strong                            |
+| Parameters               | Large number of parameters      | Fewer parameters due to filter sharing |
+| Training Speed           | Slower for images               | Faster and more efficient for images   |
+| Accuracy on Images       | Lower                           | Higher                                 |
+| Overfitting              | More chances                    | Less chances compared to ANN           |
+| Best Example             | House price prediction          | Face recognition, digit classification |
+| Real-World Usage         | Banking, sales prediction       | Self-driving cars, medical imaging     |
+
+
+============
+
+Simple Understanding
+--------------------
+
+ANN
+Every neuron connects to every neuron.
+Does not understand image patterns properly.
+
+Works better for:
+numerical data
+prediction tasks
+classification on structured datasets
+
+-----------------------
+
+CNN
+Specially designed for images.
+Detects:
+edges
+curves
+textures
+objects
+
+====================
+
+Uses filters and pooling to learn image features automatically.
+
+Why CNN is Better for Images
+
+Example:
+A cat image.
+
+ANN:
+Sees only pixel numbers.
+
+Cannot understand nearby relationships effectively.
+
+CNN:
+Detects ears, eyes, edges, shapes.
+Learns patterns step-by-step.
+
+That is why CNN gives much better accuracy in image recognition tasks.
+===================================
+
+Architecture Difference
+-----------------------
+
+ANN Flow
+
+Input → Hidden Layer → Hidden Layer → Output
+
+CNN Flow
+
+Input → Convolution → ReLU → Pooling → Flatten → Fully Connected → Output
+
+=============================
+
+Accuracy Difference (Typical)
+-----------------------------
+
+| Model | Image Classification Accuracy |
+| ----- | ----------------------------- |
+| ANN   | 20% – 70%                     |
+| CNN   | 90% – 99%                     |
+
+
+depends on dataset and training quality)
+
+=============================
