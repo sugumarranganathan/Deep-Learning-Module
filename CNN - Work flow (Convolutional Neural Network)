@@ -1,0 +1,15 @@
+| Step | Layer                         | What Happens                                       | Real-Time Example                        |
+| ---- | ----------------------------- | -------------------------------------------------- | ---------------------------------------- |
+| 1    | Input Image                   | Original image enters CNN                          | Upload a cat image                       |
+| 2    | First Convolution Layer       | Detects simple features like edges and lines       | Finds cat ear edges                      |
+| 3    | Max Pooling                   | Reduces image size while keeping important details | Keeps important ear patterns             |
+| 4    | Second Convolution Layer      | Detects more complex patterns                      | Detects eyes and fur texture             |
+| 5    | Average Pooling               | Further reduces dimensions                         | Keeps main facial structure              |
+| 6    | Third Convolution Layer       | Learns high-level object features                  | Understands “this looks like a cat face” |
+| 7    | Fully Connected / Dense Layer | Combines all learned features                      | Compares cat vs dog patterns             |
+| 8    | Hidden Dense Layer            | Final decision-making process                      | Calculates probability                   |
+| 9    | Output Layer                  | Gives final prediction                             | “Cat = 98%”                              |
+
+
+=======================
+
