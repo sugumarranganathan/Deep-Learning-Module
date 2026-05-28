@@ -39,6 +39,56 @@ For Red Channel:
 Input values × Kernel values
 → Result = 314
 
+=========
+Input values × Kernel values
+→ Result = 314, how it is came
+
+For the Red Channel, the CNN calculates 314 using:
+
+=======
+
+Step 1: Input Matrix (Red Channel)
+| 155  156  158 |
+| 154  157  159 |
+| 151  155  158 |
+
+
+Step 2: Kernel Matrix
+| -1  -1   1 |
+|  0   1  -1 |
+|  0   1   1 |
+
+Step 3: Element-wise Multiplication
+| 155×(-1)   156×(-1)   158×1  |
+| 154×0      157×1      159×(-1) |
+| 151×0      155×1      158×1 |
+
+Step 4: Result After Multiplication
+| -155   -156    158 |
+|   0     157   -159 |
+|   0     155    158 |
+
+Step 5: Add All Values
+-155 + (-156) + 158 + 0 + 157 + (-159) + 0 + 155 + 158
+= 314
+
+Final Output
+Red Channel Output = 314
+
+=======
+
+This process is called:
+
+Convolution Operation
+
+The filter slides over the image and performs:
+
+Multiplication
+Addition
+
+to extract features from the image.
+=========
+
 For Green Channel:
 
 → Result = −175
