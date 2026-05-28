@@ -1,3 +1,9 @@
+https://stackoverflow.com/questions/52067833/how-to-plot-an-animated-matrix-in-matplotlib
+
+to see the diagram how sliding & filter flow
+
+===================
+
 Convolutional Neural Network (CNN) performs a convolution operation on an image using filters (kernels).
 The calculation’s main purpose is:
 
