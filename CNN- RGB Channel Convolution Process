@@ -111,11 +111,26 @@ For Blue Channel:
 
 Then CNN combines all channels:
 
-314+(−175)+326+Bias(1)
+===================================
+CNN Convolution Formula
+
+Output=∑(Input×Kernel)+Bias
+
+
+For this example:
+
+(314)+(−175)+(326)+Bias(1)
+=314−175+326+1
+
+=466
+
 
 Final Output:
 
 466
+
+============
+
 
 The value 466 becomes one pixel in the output feature map.
 
