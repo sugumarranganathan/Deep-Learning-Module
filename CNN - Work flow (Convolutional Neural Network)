@@ -161,6 +161,9 @@ CNN gradually learns from simple image features to complete object recognition u
 
 Conv2D(4, kernel_size=3, strides=2, padding='same', activation='relu', input_shape=7X7X3)
 
+Stride = 1 means:
+The filter moves one pixel at a time across the image.
+
 explanation:
 ------------
 
