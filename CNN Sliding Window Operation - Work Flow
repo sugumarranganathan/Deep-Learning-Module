@@ -1,0 +1,78 @@
+ow CNN calculates the output size using:
+
+Input Image Size
+Kernel (Filter) Size
+Stride
+Given in Image
+Input Image Size
+7 × 7
+Filter (Kernel) Size
+3 × 3
+Stride
+Stride = 1
+What Happens?
+
+The 3×3 filter moves over the 7×7 image.
+
+Since:
+
+Stride = 1
+
+The filter moves:
+
+1 step right
+then next row
+again 1 step
+Why Output Becomes 5×5?
+
+Because the filter cannot go outside the image.
+
+CNN calculates how many positions the filter can fit.
+
+Formula
+
+Output Size=
+
+(N−F) / S + 1
+	​
+Where:
+
+N = Input size
+F = Filter size
+S = Stride
+
+Apply Values
+
+========
+
+Apply Values
+
+= (7 - 3) / 1 + 1
+
+= 4 / 1 + 1
+
+= 4 + 1
+
+= 5
+
+==========
+eaning of V1 to V25
+
+Each value:
+
+V1
+V2
+V3
+...
+V25
+
+V1 is Output Value or Feature value = 1
+
+is one convolution result (feature value).
+
+The filter produces:
+
+25 different outputs
+arranged into a 5×5 matrix
+
+==========
