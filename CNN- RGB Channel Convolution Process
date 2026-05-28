@@ -130,6 +130,23 @@ Final Output:
 466
 
 ============
+General CNN Formula
+
+          n
+O =  Σ   (Iᵢ × Kᵢ) + b
+        i=1
+
+
+Where:
+
+O  = Output
+I  = Input pixel values
+K  = Kernel / Filter values
+b  = Bias
+Σ  = Sum of all multiplication results
+
+==================
+
 
 
 The value 466 becomes one pixel in the output feature map.
