@@ -1,0 +1,104 @@
+Convolutional Neural Network (CNN) performs a convolution operation on an image using filters (kernels).
+The calculation’s main purpose is:
+
+Purpose of This Calculation
+
+The CNN uses these calculations to detect important features from an image, such as:
+
+Edges
+Shapes
+Textures
+Patterns
+Object parts
+
+This is how CNN “understands” images before classification.
+
+What Happens in This Image?
+
+The image has 3 channels:
+
+Red Channel
+Green Channel
+Blue Channel (RGB)
+
+Each channel has:
+
+Input pixel values
+A small filter/kernel (3×3 matrix)
+
+The CNN performs:
+
+Multiply input values with kernel values
+Add all results
+Add bias
+Produce one output value
+Example from the Image
+
+For Red Channel:
+
+Input values × Kernel values
+→ Result = 314
+
+For Green Channel:
+
+→ Result = −175
+
+For Blue Channel:
+
+→ Result = 326
+
+Then CNN combines all channels:
+
+314+(−175)+326+Bias(1)
+
+Final Output:
+
+466
+
+The value 466 becomes one pixel in the output feature map.
+
+Why Is This Useful?
+
+This calculation helps CNN identify patterns.
+
+Example:
+
+| Filter Learns  | Detects                |
+| -------------- | ---------------------- |
+| Edge filter    | Borders of objects     |
+| Texture filter | Fabric patterns        |
+| Shape filter   | Eyes, wheels, shirts   |
+| Color filter   | Specific color regions |
+
+
+===========
+
+Real-Time Example
+
+Suppose you are building:
+
+Fashion Product Classifier
+
+CNN learns:
+
+Shirt collars
+Shoe shapes
+Bag outlines
+Trouser textures
+
+Instead of manually programming these features, CNN automatically learns them using these convolution calculations.
+
+Why Different Kernels?
+
+Different kernels detect different features.
+
+Example:
+
+One kernel detects vertical edges
+Another detects horizontal edges
+Another detects textures
+
+That’s why CNN uses many filters.
+
+=========
+
