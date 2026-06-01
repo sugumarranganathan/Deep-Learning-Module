@@ -1,0 +1,114 @@
+| No | Feature                | YOLO                   | Mask R-CNN               | Day-to-Day Example     |
+| -- | ---------------------- | ---------------------- | ------------------------ | ---------------------- |
+| 1  | Full Form              | You Only Look Once     | Mask Region CNN          | Computer Vision Models |
+| 2  | Purpose                | Object Detection       | Instance Segmentation    | CCTV Monitoring        |
+| 3  | Output                 | Bounding Box           | Bounding Box + Mask      | Security Cameras       |
+| 4  | Speed                  | Very Fast              | Slower                   | Traffic Monitoring     |
+| 5  | Accuracy               | High                   | Very High                | Autonomous Driving     |
+| 6  | Object Shape           | Not Available          | Exact Shape Available    | Background Removal     |
+| 7  | Real-Time Use          | Excellent              | Moderate                 | Live CCTV              |
+| 8  | Processing Time        | Milliseconds           | Higher                   | Video Analytics        |
+| 9  | Complexity             | Simple                 | Complex                  | AI Development         |
+| 10 | Memory Usage           | Low                    | High                     | Mobile Devices         |
+| 11 | Mobile Friendly        | Yes                    | Limited                  | Android Apps           |
+| 12 | Edge Devices           | Excellent              | Moderate                 | Smart Cameras          |
+| 13 | Detect Person          | Yes                    | Yes + Shape              | Attendance Systems     |
+| 14 | Detect Vehicle         | Yes                    | Yes + Shape              | Parking Systems        |
+| 15 | Detect Animals         | Yes                    | Yes + Shape              | Pet Monitoring         |
+| 16 | Overlapping Objects    | Moderate               | Excellent                | Warehouse Boxes        |
+| 17 | Small Object Detection | Good                   | Better                   | Drone Surveillance     |
+| 18 | Pixel-Level Detection  | No                     | Yes                      | Medical Imaging        |
+| 19 | Road Detection         | Limited                | Excellent                | Self-Driving Cars      |
+| 20 | Medical Applications   | Limited                | Excellent                | Tumor Segmentation     |
+| 21 | Surgery Assistance     | Rare                   | Common                   | Robot Surgery          |
+| 22 | Background Removal     | Approximate            | Accurate                 | Photo Editing Apps     |
+| 23 | Face Detection         | Good                   | Better Shape Extraction  | Face Apps              |
+| 24 | Training Speed         | Faster                 | Slower                   | AI Project Development |
+| 25 | Deployment Cost        | Lower                  | Higher                   | Business Applications  |
+| 26 | Live Streaming         | Excellent              | Moderate                 | YouTube Analytics      |
+| 27 | Object Counting        | Excellent              | Excellent                | Crowd Counting         |
+| 28 | Object Boundary        | Rough Box              | Exact Boundary           | Product Inspection     |
+| 29 | Best For               | Speed                  | Precision                | Depends on Need        |
+| 30 | Popular Example        | CCTV Vehicle Detection | iPhone Background Cutout | Everyday Usage         |
+
+
+===============
+
+Day-to-Day Example 1: CCTV Camera
+YOLO
+Person → Box
+Car → Box
+Bike → Box
+
+Result:
+
+✅ Fast detection
+
+❌ Doesn't know exact object shape
+
+Mask R-CNN
+Person → Box + Exact Shape
+Car → Box + Exact Shape
+Bike → Box + Exact Shape
+
+Result:
+
+✅ Knows exact boundaries
+
+❌ Slower than YOLO
+
+Day-to-Day Example 2: Mobile Photo Background Removal
+YOLO
+Detect Person
+Draw Box
+
+Cannot accurately remove background.
+
+Mask R-CNN
+Detect Person
+Identify Every Pixel
+Remove Background
+
+Used in:
+
+iPhone Portrait Cutout
+Canva Background Remover
+Photoshop AI Selection
+Day-to-Day Example 3: Self-Driving Car
+YOLO
+Car Detected
+Person Detected
+Traffic Signal Detected
+
+Fast decision making.
+
+Mask R-CNN
+Car Shape Known
+Road Area Known
+Pedestrian Shape Known
+
+Safer navigation.
+
+Easy Memory Trick
+-----------------
+
+
+| Model      | Think Like              |
+| ---------- | ----------------------- |
+| YOLO       | Security Guard          |
+| Mask R-CNN | Security Guard + Artist |
+
+=========
+
+Why?
+
+YOLO says:
+
+"There is a car."
+
+Mask R-CNN says:
+
+"There is a car, and here is its exact shape."
+
+============
+
