@@ -139,3 +139,22 @@ before they reach customers.
 
 ==============
 
+YOLO (You Only Look Once)
+YOLO (You Only Look Once) is a deep learning model used for real-time object detection.
+It detects and classifies multiple objects in images and videos.
+It processes the image using a single pass through the network, making it very fast.
+It generates bounding boxes around detected objects.
+It assigns class labels such as person, car, bike, dog, or traffic signal.
+It can detect multiple objects simultaneously in a single image.
+It is widely used in CCTV surveillance systems.
+It is used in traffic monitoring to detect vehicles and pedestrians.
+It helps self-driving cars identify obstacles and road objects.
+It is used in smart parking systems to count and track vehicles.
+It is commonly applied in security, robotics, and industrial automation.
+YOLO is known for its high speed and real-time performance.
+It is one of the most popular and widely used object detection models in Deep Learning.
+
+================
+
+
+
