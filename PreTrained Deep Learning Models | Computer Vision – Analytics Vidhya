@@ -1,0 +1,65 @@
+Analytics Vidhya titled:
+------------------------
+
+https://www.analyticsvidhya.com/blog/2018/07/top-10-pretrained-models-get-started-deep-learning-part-1-computer-vision/?utm_source=chatgpt.com
+
+=======================
+
+PreTrained Deep Learning Models | Computer Vision
+
+Published: 27 July 2018
+
+The article discusses popular pre-trained models for Computer Vision and how they can be used for Transfer Learning instead of training a neural network from scratch.
+
+Main Models Covered
+--------------------
+
+| Model                 | Year | Main Use                 | Real-Time Example                 |
+| --------------------- | ---- | ------------------------ | --------------------------------- |
+| LeNet-5               | 1998 | Digit Recognition        | Bank cheque reading               |
+| AlexNet               | 2012 | Image Classification     | Identifying objects in photos     |
+| VGG16                 | 2014 | Feature Extraction       | Product image search              |
+| VGG19                 | 2014 | Image Classification     | Medical image analysis            |
+| GoogLeNet (Inception) | 2014 | Efficient Classification | Google Photos                     |
+| ResNet                | 2015 | Deep Image Recognition   | Self-driving cars                 |
+| InceptionV3           | 2015 | Image Classification     | Image tagging systems             |
+| Xception              | 2017 | Advanced Classification  | Defect detection in manufacturing |
+| MobileNet             | 2017 | Mobile Vision            | Smartphone camera AI              |
+| DenseNet              | 2017 | Feature Reuse            | Medical diagnostics               |
+
+
+=========
+
+Why These Models Are Important
+
+Before these models:
+
+❌ Developers needed millions of images and days of training.
+
+After these models:
+
+✅ Download pre-trained weights
+
+✅ Apply Transfer Learning
+
+✅ Train with a few hundred or thousand images
+
+✅ Get high accuracy quickly
+
+===========
+
+| Category             | Models                        |
+| -------------------- | ----------------------------- |
+| Object Detection     | YOLOv2, Mask R-CNN, MobileNet |
+| Face Recognition     | VGG-Face                      |
+| Image Segmentation   | DeepLabV3                     |
+| Image Classification | VGG16, VGG19, InceptionV3     |
+| Face Reconstruction  | 3D Face Reconstruction Model  |
+
+
+==========
+
+
+
+
+
