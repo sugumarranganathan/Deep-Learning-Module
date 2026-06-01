@@ -1,0 +1,49 @@
+| Platform                                                                              | Best For                                  | Difficulty           |
+| ------------------------------------------------------------------------------------- | ----------------------------------------- | -------------------- |
+| [Analytics Vidhya](https://www.analyticsvidhya.com?utm_source=chatgpt.com)            | Data Science, ML, DL tutorials            | Beginner to Advanced |
+| [Towards Data Science](https://towardsdatascience.com?utm_source=chatgpt.com)         | Practical AI projects and explanations    | Beginner to Advanced |
+| [Machine Learning Mastery](https://machinelearningmastery.com?utm_source=chatgpt.com) | Python, ML, DL tutorials                  | Beginner             |
+| [KDnuggets](https://www.kdnuggets.com?utm_source=chatgpt.com)                         | Data Science news and tutorials           | Intermediate         |
+| [Papers with Code](https://paperswithcode.com?utm_source=chatgpt.com)                 | Research papers with code implementations | Advanced             |
+| [PyImageSearch](https://pyimagesearch.com?utm_source=chatgpt.com)                     | Computer Vision and OpenCV                | Beginner to Advanced |
+| [OpenCV Blog](https://opencv.org/blog/?utm_source=chatgpt.com)                        | Computer Vision tutorials                 | Intermediate         |
+| [TensorFlow Tutorials](https://www.tensorflow.org/tutorials?utm_source=chatgpt.com)   | TensorFlow and Deep Learning              | Beginner to Advanced |
+| [PyTorch Tutorials](https://pytorch.org/tutorials/?utm_source=chatgpt.com)            | PyTorch Deep Learning                     | Beginner to Advanced |
+| [Hugging Face Learn](https://huggingface.co/learn?utm_source=chatgpt.com)             | NLP, Transformers, LLMs                   | Intermediate         |
+| [Google AI Blog](https://ai.googleblog.com?utm_source=chatgpt.com)                    | Latest AI research                        | Advanced             |
+| [DeepLearning.AI Blog](https://www.deeplearning.ai/blog/?utm_source=chatgpt.com)      | AI concepts and industry trends           | Beginner to Advanced |
+
+
+===============
+
+For current Deep Learning Course
+
+Focus on these 5:
+
+Analytics Vidhya
+PyImageSearch
+TensorFlow Tutorials
+PyTorch Tutorials
+Papers with Code
+
+=============
+
+| Topic                      | Best Website                               |
+| -------------------------- | ------------------------------------------ |
+| Deep Learning              | TensorFlow, PyTorch                        |
+| Computer Vision            | PyImageSearch, OpenCV                      |
+| NLP & Transformers         | Hugging Face                               |
+| Research Papers            | Papers with Code                           |
+| Beginner-Friendly Learning | Analytics Vidhya                           |
+| Interview Preparation      | Analytics Vidhya, Machine Learning Mastery |
+
+
+=============
+
+Analytics Vidhya and PyImageSearch are excellent resources for learning Deep Learning and Computer Vision.
+They provide tutorials on Transfer Learning, CNN, FaceNet, YOLO, and ResNet.
+You can also learn VGG16, DeepLabV3, and Image Captioning concepts.
+These platforms offer practical examples, projects, and implementation guides.
+They are widely used for interview preparation, project development, and viva examinations.
+
+============
