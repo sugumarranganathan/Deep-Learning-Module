@@ -59,6 +59,98 @@ After these models:
 
 ==========
 
+Pre-Trained Models Explained
+----------------------------
+
+| Category           | Model / Application                        | Explanation                                                               | Real-Time Example                                                    |
+| ------------------ | ------------------------------------------ | ------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Object Detection   | Mask R-CNN                                 | Detects objects and creates a precise boundary (mask) around each object. | Self-driving cars identifying pedestrians, vehicles, and road signs. |
+| Object Detection   | YOLOv2                                     | Detects multiple objects in real-time with high speed.                    | CCTV cameras detecting people and vehicles instantly.                |
+| Object Detection   | MobileNet                                  | Lightweight model optimized for mobile and embedded devices.              | Mobile apps recognizing objects through the camera.                  |
+| Classification     | Ripe/Unripe Tomato Classification          | Classifies tomatoes as ripe or unripe based on images.                    | Smart farming systems sorting tomatoes automatically.                |
+| Classification     | Car Classification                         | Identifies car brands, models, and types from images.                     | Automated parking and toll collection systems.                       |
+| Facial Recognition | VGG-Face Model                             | Recognizes and verifies human faces using facial features.                | Smartphone Face Unlock and attendance systems.                       |
+| Facial Recognition | 3D Face Reconstruction from a Single Image | Generates a 3D face model from a single 2D photo.                         | AR filters, gaming avatars, and virtual reality.                     |
+| Segmentation       | DeepLabV3                                  | Classifies every pixel in an image into meaningful regions.               | Medical imaging for tumor and organ detection.                       |
+| Segmentation       | Robot Surgery Segmentation                 | Identifies surgical tools and body parts during surgery.                  | AI-assisted robotic surgeries in hospitals.                          |
+| Miscellaneous      | Image Captioning                           | Automatically generates text descriptions for images.                     | "A dog is playing in a park" generated from a photo.                 |
+
+=================
+
+Simple Understanding
+1. Object Detection
+
+Question Answered: What objects are present and where are they located?
+
+Models:
+
+YOLOv2
+Mask R-CNN
+MobileNet
+
+Example:
+A CCTV camera detects:
+
+Person
+Car
+Bike
+
+and draws boxes around them.
+
+2. Classification
+
+Question Answered: What is this image?
+
+Examples:
+
+Ripe Tomato
+Unripe Tomato
+BMW Car
+Audi Car
+
+The model only gives the category name.
+
+3. Facial Recognition
+
+Question Answered: Who is this person?
+
+Models:
+
+VGG-Face
+3D Face Reconstruction
+
+Example:
+Face Unlock compares your face with the stored face and unlocks the phone.
+
+4. Segmentation
+
+Question Answered: Which exact pixels belong to an object?
+
+Models:
+
+DeepLabV3
+Robot Surgery Segmentation
+
+Example:
+In a medical scan, the model highlights the exact tumor area rather than just saying a tumor exists.
+
+5. Image Captioning
+
+Question Answered: Can the computer describe the image in words?
+
+Example:
+
+Image:
+👦 + ⚽ + 🏞️
+
+Generated Caption:
+
+A boy is playing football in a park.
+
+=============
+
+
+
 
 
 
