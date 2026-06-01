@@ -1,0 +1,53 @@
+Pre-trained models are neural network models that have already been trained on large datasets.
+They can be reused for new tasks without training from scratch.
+ResNet is commonly used for image classification.
+YOLO and FaceNet are used for object detection and face recognition.
+BERT, GPT, and Whisper are used for text understanding, text generation, and speech recognition.
+
+==================
+
+
+| Search Suggestion                           | What It Means                            | Popular Models              | Real-Time Example                         |
+| ------------------------------------------- | ---------------------------------------- | --------------------------- | ----------------------------------------- |
+| Pre-trained BERT Model                      | NLP model for understanding text         | BERT, RoBERTa               | Google Search, Chatbots                   |
+| Pre-trained Models for Image Classification | Identify objects in images               | VGG16, ResNet, EfficientNet | Google Photos recognizing cats and cars   |
+| Pre-trained Word Embeddings                 | Convert words into vectors               | Word2Vec, GloVe, FastText   | Search engines and recommendation systems |
+| Pre-trained Models for Object Detection     | Detect and locate objects                | YOLO, SSD, Faster R-CNN     | CCTV vehicle detection                    |
+| Pre-trained CNN Models                      | Convolutional Neural Networks for images | AlexNet, VGG16, ResNet      | Medical image analysis                    |
+| Pre-trained Language Models                 | Understand and generate language         | GPT, BERT, T5               | ChatGPT, Translation Apps                 |
+| Pre-trained Models for Text Classification  | Categorize text                          | BERT, XLNet                 | Spam Email Detection                      |
+| Pre-trained Model for Emotion Recognition   | Detect emotions from face/text/speech    | DeepFace, FER, EmotionNet   | Customer sentiment analysis               |
+
+
+============
+
+Pre-Trained Models
+│
+├── Computer Vision
+│   ├── CNN Models
+│   │   ├── AlexNet
+│   │   ├── VGG16
+│   │   └── ResNet
+│   │
+│   ├── Image Classification
+│   ├── Object Detection
+│   └── Image Segmentation
+│
+├── Natural Language Processing
+│   ├── BERT
+│   ├── GPT
+│   ├── T5
+│   └── RoBERTa
+│
+├── Word Embeddings
+│   ├── Word2Vec
+│   ├── GloVe
+│   └── FastText
+│
+└── Emotion Recognition
+    ├── DeepFace
+    ├── FER
+    └── EmotionNet
+
+=================
+
