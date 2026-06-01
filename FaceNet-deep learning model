@@ -1,0 +1,9 @@
+FaceNet
+--------
+
+FaceNet is a deep learning model used for face recognition and face verification.
+It learns a compact numerical representation of a face called an embedding.
+Faces of the same person are mapped closer together in the embedding space.
+Faces of different people are mapped farther apart.
+FaceNet is widely used in biometric authentication and facial recognition systems.
+
