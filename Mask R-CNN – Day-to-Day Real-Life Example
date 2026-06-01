@@ -1,0 +1,89 @@
+Example 1: Self-Driving Car 🚗
+
+Imagine a self-driving car driving on a busy road.
+
+The AI camera sees:
+
+🚗 Car
+🚌 Bus
+🚶 Person
+🚲 Bicycle
+🚦 Traffic Signal
+What YOLO Does
+Car → Detected
+Person → Detected
+Bus → Detected
+
+YOLO only tells:
+
+"There is a car here."
+
+What Mask R-CNN Does
+Car → Detected + Exact Shape
+Person → Detected + Exact Shape
+Bus → Detected + Exact Shape
+
+Mask R-CNN tells:
+
+"This exact green area belongs to the car."
+
+This helps the car know exactly where the object starts and ends.
+
+Example 2: Swiggy / Zomato Delivery Robot 🤖
+
+A delivery robot sees:
+
+Road
+Person
+Bike
+Dog
+
+Mask R-CNN separates each object.
+
+Road = Blue
+Person = Green
+Bike = Red
+Dog = Yellow
+
+The robot can safely move around obstacles.
+
+Example 3: Hospital MRI Scan 🏥
+
+Doctor uploads a brain scan.
+
+Normal Object Detection
+Tumor Found
+Mask R-CNN
+Tumor Found
+Exact Tumor Boundary Highlighted
+
+Doctors can measure the tumor size accurately.
+
+Example 4: Mobile Phone Gallery 📱
+
+You take a family photo.
+
+Mask R-CNN identifies:
+
+Father
+Mother
+Child
+Dog
+
+Each object is separated from the background.
+
+This is how many photo editing apps remove backgrounds automatically.
+
+Example 5: Amazon Warehouse 📦
+
+A camera sees:
+
+Box A
+Box B
+Box C
+
+Boxes may overlap.
+
+Mask R-CNN identifies the exact boundary of each box.
+
+Robots can then pick the correct package.
