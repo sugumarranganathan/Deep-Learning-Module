@@ -1,0 +1,134 @@
+Deep Learning Models and Their Uses
+
+| No | Model                         | Use                                           |
+| -- | ----------------------------- | --------------------------------------------- |
+| 1  | FaceNet                       | Face recognition and face verification        |
+| 2  | AlexNet                       | Image classification                          |
+| 3  | LeNet-5                       | Handwritten digit recognition                 |
+| 4  | VGG16                         | Image classification and feature extraction   |
+| 5  | VGG19                         | Deep image classification                     |
+| 6  | ResNet50                      | Image classification with residual learning   |
+| 7  | ResNet101                     | Large-scale image recognition                 |
+| 8  | InceptionV3                   | Efficient image classification                |
+| 9  | GoogLeNet                     | Computer vision tasks                         |
+| 10 | Xception                      | High-performance image classification         |
+| 11 | MobileNet                     | Mobile and embedded vision applications       |
+| 12 | MobileNetV2                   | Lightweight image recognition                 |
+| 13 | MobileNetV3                   | Mobile AI applications                        |
+| 14 | EfficientNet                  | Optimized image classification                |
+| 15 | DenseNet                      | Image classification and object detection     |
+| 16 | SqueezeNet                    | Small-size image classification               |
+| 17 | ShuffleNet                    | Mobile device vision tasks                    |
+| 18 | NASNet                        | Automated neural architecture search          |
+| 19 | YOLO                          | Real-time object detection                    |
+| 20 | YOLOv8                        | Advanced object detection and tracking        |
+| 21 | Faster R-CNN                  | Object detection                              |
+| 22 | Mask R-CNN                    | Object detection and image segmentation       |
+| 23 | SSD                           | Single-shot object detection                  |
+| 24 | RetinaNet                     | Dense object detection                        |
+| 25 | U-Net                         | Medical image segmentation                    |
+| 26 | SegNet                        | Semantic image segmentation                   |
+| 27 | DeepLabV3                     | Scene understanding and segmentation          |
+| 28 | FCN                           | Semantic segmentation                         |
+| 29 | GAN                           | Image generation                              |
+| 30 | DCGAN                         | Image synthesis                               |
+| 31 | CycleGAN                      | Image-to-image translation                    |
+| 32 | StyleGAN                      | Realistic face generation                     |
+| 33 | Pix2Pix                       | Image translation                             |
+| 34 | Autoencoder                   | Feature learning and dimensionality reduction |
+| 35 | Variational Autoencoder (VAE) | Image generation and anomaly detection        |
+| 36 | RNN                           | Sequence prediction                           |
+| 37 | LSTM                          | Time-series forecasting and NLP               |
+| 38 | GRU                           | Sequence modeling                             |
+| 39 | Seq2Seq                       | Language translation                          |
+| 40 | Transformer                   | Natural language processing                   |
+| 41 | BERT                          | Text understanding and NLP                    |
+| 42 | RoBERTa                       | Improved language understanding               |
+| 43 | GPT                           | Text generation and conversational AI         |
+| 44 | T5                            | Text-to-text transformation                   |
+| 45 | XLNet                         | Advanced language modeling                    |
+| 46 | Vision Transformer (ViT)      | Image classification                          |
+| 47 | CLIP                          | Image-text understanding                      |
+| 48 | DALL·E                        | Image generation from text                    |
+| 49 | Whisper                       | Speech recognition                            |
+| 50 | Siamese Network               | Face verification and similarity matching     |
+
+
+==========
+
+FaceNet – Face Recognition
+CNN – Image Processing
+AlexNet – Image Classification
+VGG16 – Feature Extraction
+ResNet – Deep Image Recognition
+YOLO – Object Detection
+U-Net – Image Segmentation
+GAN – Image Generation
+LSTM – Time Series & NLP
+Transformer – Modern NLP
+BERT – Text Understanding
+GPT – Generative AI
+CLIP – Image + Text Understanding
+Whisper – Speech Recognition
+Siamese Network – Similarity Matching
+
+=========
+
+Deep Learning Models with Real-Life Examples
+
+| No | Model                    | Use                                | Real-Life Example                            |
+| -- | ------------------------ | ---------------------------------- | -------------------------------------------- |
+| 1  | FaceNet                  | Face recognition                   | Mobile phone face unlock                     |
+| 2  | AlexNet                  | Image classification               | Identifying cats and dogs in photos          |
+| 3  | LeNet-5                  | Digit recognition                  | Reading handwritten bank cheque numbers      |
+| 4  | VGG16                    | Feature extraction                 | Product image search in e-commerce           |
+| 5  | VGG19                    | Image classification               | Sorting photos in galleries                  |
+| 6  | ResNet50                 | Image recognition                  | Medical image diagnosis                      |
+| 7  | ResNet101                | Advanced image analysis            | Self-driving car vision systems              |
+| 8  | InceptionV3              | Efficient image classification     | Google Photos image tagging                  |
+| 9  | GoogLeNet                | Computer vision                    | Smart surveillance systems                   |
+| 10 | Xception                 | High-accuracy image classification | Industrial defect detection                  |
+| 11 | MobileNet                | Mobile vision applications         | Real-time camera filters on smartphones      |
+| 12 | MobileNetV2              | Lightweight recognition            | Face detection in mobile apps                |
+| 13 | MobileNetV3              | Edge AI devices                    | Smart doorbell cameras                       |
+| 14 | EfficientNet             | Optimized image classification     | Disease detection from plant leaves          |
+| 15 | DenseNet                 | Image analysis                     | Cancer detection from X-rays                 |
+| 16 | SqueezeNet               | Small AI models                    | IoT smart cameras                            |
+| 17 | ShuffleNet               | Mobile AI                          | Real-time object detection on phones         |
+| 18 | NASNet                   | Automated architecture design      | Automated image classification systems       |
+| 19 | YOLO                     | Object detection                   | Detecting vehicles in traffic cameras        |
+| 20 | YOLOv8                   | Detection and tracking             | CCTV people counting systems                 |
+| 21 | Faster R-CNN             | Object detection                   | Security monitoring systems                  |
+| 22 | Mask R-CNN               | Segmentation                       | Autonomous vehicle road analysis             |
+| 23 | SSD                      | Fast object detection              | Retail store inventory monitoring            |
+| 24 | RetinaNet                | Small object detection             | Drone surveillance                           |
+| 25 | U-Net                    | Medical segmentation               | Tumor detection in MRI scans                 |
+| 26 | SegNet                   | Semantic segmentation              | Road lane detection                          |
+| 27 | DeepLabV3                | Scene understanding                | Satellite image analysis                     |
+| 28 | FCN                      | Segmentation                       | Background removal apps                      |
+| 29 | GAN                      | Image generation                   | AI-generated profile pictures                |
+| 30 | DCGAN                    | Image synthesis                    | Creating synthetic product images            |
+| 31 | CycleGAN                 | Image translation                  | Converting day images to night images        |
+| 32 | StyleGAN                 | Face generation                    | Creating realistic virtual faces             |
+| 33 | Pix2Pix                  | Image translation                  | Sketch-to-photo conversion                   |
+| 34 | Autoencoder              | Feature learning                   | Credit card fraud detection                  |
+| 35 | VAE                      | Anomaly detection                  | Manufacturing defect detection               |
+| 36 | RNN                      | Sequence prediction                | Predicting next word while typing            |
+| 37 | LSTM                     | Time-series forecasting            | Stock market prediction                      |
+| 38 | GRU                      | Sequence modeling                  | Weather forecasting                          |
+| 39 | Seq2Seq                  | Translation                        | Language translation apps                    |
+| 40 | Transformer              | NLP                                | Modern chatbots                              |
+| 41 | BERT                     | Text understanding                 | Google Search understanding user queries     |
+| 42 | RoBERTa                  | NLP                                | Customer feedback analysis                   |
+| 43 | GPT                      | Text generation                    | ChatGPT and AI assistants                    |
+| 44 | T5                       | Text transformation                | Summarizing long documents                   |
+| 45 | XLNet                    | Language modeling                  | Search engine query prediction               |
+| 46 | Vision Transformer (ViT) | Image classification               | Advanced medical image analysis              |
+| 47 | CLIP                     | Image-text understanding           | Searching images using text prompts          |
+| 48 | DALL·E                   | Text-to-image generation           | Creating images from descriptions            |
+| 49 | Whisper                  | Speech recognition                 | Voice-to-text transcription                  |
+| 50 | Siamese Network          | Similarity matching                | Signature verification and face verification |
+
+
+==========
+
