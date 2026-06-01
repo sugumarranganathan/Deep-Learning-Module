@@ -1,0 +1,65 @@
+What is a Pre-Trained Model Category?
+
+A Category is a group of pre-trained models that perform a similar type of task.
+
+Think of it like this:
+
+Vehicles
+├── Car
+├── Bike
+└── Bus
+
+Here, Vehicles is the category.
+
+Similarly,
+
+Pre-Trained Models
+├── Image Classification
+├── Object Detection
+├── Face Recognition
+└── Text/NLP
+
+Here, Image Classification, Object Detection, Face Recognition, and NLP are categories.
+===========
+
+Pre-Trained Model Categories
+----------------------------
+
+| Category             | Purpose                          | Models                       |
+| -------------------- | -------------------------------- | ---------------------------- |
+| Image Classification | Identify what is in an image     | VGG16, ResNet50, InceptionV3 |
+| Object Detection     | Find and locate objects          | YOLO, SSD, Faster R-CNN      |
+| Face Recognition     | Identify or verify faces         | FaceNet, DeepFace, ArcFace   |
+| Image Segmentation   | Identify exact object boundaries | Mask R-CNN, DeepLabV3, U-Net |
+| Text / NLP           | Understand and generate text     | BERT, GPT, T5                |
+| Speech Recognition   | Convert speech to text           | Whisper, DeepSpeech          |
+| Image Generation     | Create images using AI           | DALL·E, GAN, StyleGAN        |
+
+
+=============
+
+
+Example
+Category: Object Detection
+
+Models:
+
+YOLO
+Mask R-CNN
+SSD
+Faster R-CNN
+
+Purpose:
+
+Detect Person
+Detect Car
+Detect Bike
+Detect Bus
+
+All these models belong to the Object Detection Category.
+
+==============
+
+
+
+
