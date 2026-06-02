@@ -1,3 +1,32 @@
+Transfer Learning Matrix
+
+A Transfer Learning Matrix is a decision-making framework used to select the most suitable transfer learning strategy based on two factors:
+
+Dataset Size (Small or Large)
+Dataset Similarity (Low or High)
+
+The matrix helps determine how much of the pre-trained model should be reused and how much retraining is required.
+
+Transfer Learning Matrix
+------------------------
+
+| Dataset Size | Dataset Similarity | Strategy                                        |
+| ------------ | ------------------ | ----------------------------------------------- |
+| Small        | High               | Train only the output layer                     |
+| Small        | Low                | Freeze lower layers and fine-tune higher layers |
+| Large        | High               | Fine-tune most or all layers                    |
+| Large        | Low                | Train the model from scratch                    |
+
+=========
+
+Purpose of the Transfer Learning Matrix
+Helps choose the correct transfer learning approach.
+Reduces training time and computational cost.
+Improves model performance.
+Prevents overfitting when data is limited.
+Maximizes the use of pre-trained knowledge.
+============
+
 Scenario 1: Dataset Size is Small and Data Similarity is Very High
 Explanation
 
