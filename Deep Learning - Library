@@ -1,0 +1,9 @@
+conda install python=3.10
+
+pip install tensorflow==2.10
+
+conda install jupyter notebook
+
+pip install pillow==9.5.0
+
+pip install scipy==1.9 pyparsing==2.3.1 python-dateutil==2.7
