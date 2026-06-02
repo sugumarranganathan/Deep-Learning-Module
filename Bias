@@ -1,0 +1,131 @@
+Think of making tea:
+
+Tea Taste = (Sugar × Cups) + Secret Ingredient
+Sugar = Weight
+Cups = Input
+Secret Ingredient = Bias
+
+Even if sugar changes, the secret ingredient affects the final taste.
+
+===========
+
+Bias is an additional parameter in a neural network that is added to the weighted sum of inputs. It helps the model shift the output and learn more flexible patterns instead of forcing the output to pass through zero.
+
+Memory Trick
+
+Weight = Importance of input
+
+Bias = Starting point / Adjustment value
+
+=========
+
+y=wx+b
+
+Where:
+
+x = Input
+w = Weight (importance)
+b = Bias (starting value)
+y = Output
+
+=======
+
+Real-Life Example: Auto Fare
+
+Suppose an auto driver charges:
+
+₹15 per kilometer
+₹30 minimum/base fare
+
+Formula:
+
+Fare = (15 × Distance) + 30
+
+Here:
+
+Distance = Input (x)
+₹15 = Weight (w)
+₹30 = Bias (b)
+Customer travels 4 km
+Fare = (15 × 4) + 30
+     = 60 + 30
+     = ₹90
+
+Output = ₹90
+
+Why Bias is Needed?
+
+Without bias:
+
+Fare = 15 × Distance
+
+If distance = 0:
+
+Fare = ₹0
+
+But in reality, the driver still charges a minimum amount for coming to pick you up.
+
+That minimum amount is the Bias.
+
+Another Example: House Rent
+
+Suppose:
+
+₹20 per sq.ft
+₹5,000 maintenance charge
+
+Formula:
+
+Rent = (20 × Area) + 5000
+
+For a 1000 sq.ft house:
+
+Rent = (20 × 1000) + 5000
+     = 25000
+
+Here:
+
+Area = Input
+₹20 = Weight
+₹5000 = Bias
+
+The maintenance charge is paid regardless of house size.
+
+Neural Network Example
+
+Imagine an AI model deciding whether an image contains a cat.
+
+Features detected:
+
+Ears      = 0.8
+Whiskers  = 0.7
+Eyes      = 0.9
+
+Weighted sum:
+
+2.4
+
+Add bias:
+
+2.4 + 0.5 = 2.9
+
+The bias helps adjust the final decision threshold.
+
+Easy Memory Trick
+
+Think of ordering food:
+
+Total Bill = (Food Price) + Delivery Charge
+Food Price → Weight × Input
+Delivery Charge → Bias
+
+Even if you order a small item, the delivery charge is still added.
+
+One-Line Definition
+
+Bias is the fixed adjustment value added to the weighted input so that the model can shift its output and make more accurate predictions.
+
+Weight = Importance of input
+Bias = Base value / Starting value / Fixed adjustment
+
+======
