@@ -1,0 +1,110 @@
+1. SSD (Single Shot Detector)
+
+In your Face Mask Detection project, SSD is used for Face Detection.
+
+What does SSD do?
+
+When the webcam captures an image:
+
+Camera Frame
+      ↓
+SSD Face Detector
+      ↓
+Find Faces
+      ↓
+Draw Face Coordinates
+
+Example:
+
++-------------------+
+|                   |
+|      😀 Face      |
+|                   |
++-------------------+
+
+SSD finds:
+
+startX = 100
+startY = 50
+endX   = 200
+endY   = 180
+
+These coordinates tell where the face is located.
+
+Why SSD?
+Fast detection
+Real-time performance
+Good accuracy
+Works well with webcam video
+
+In your code:
+
+faceNet = cv2.dnn.readNet(
+    "deploy.prototxt",
+    "res10_300x300_ssd_iter_140000.caffemodel"
+)
+
+This is the OpenCV DNN SSD Face Detector.
+
+2. ROI (Region of Interest)
+
+ROI means:
+
+Region of Interest
+
+After SSD detects the face, we don't need the whole image.
+
+We only need the face portion.
+
+Example
+
+Original Frame:
+
++--------------------------+
+| Wall     😀 Face         |
+| Chair                 Fan|
++--------------------------+
+
+SSD detects face.
+
+ROI extracts only:
+
++-----------+
+|   😀 Face |
++-----------+
+
+Everything else is removed.
+
+Flow
+Web Camera
+      ↓
+Full Frame
+      ↓
+SSD Face Detection
+      ↓
+Face Coordinates
+      ↓
+ROI Extraction
+      ↓
+Face Image Only
+      ↓
+Resize 224×224
+      ↓
+MobileNetV2
+      ↓
+Mask Prediction
+
+================
+
+SSD (Single Shot Detector):
+A deep learning object detection algorithm used to detect faces in real-time video frames.
+
+ROI (Region of Interest):
+The cropped face area extracted from the detected image and given to MobileNetV2 for mask classification.
+
+One-Line Viva Answer
+
+SSD detects the face, and ROI extracts only the detected face region for mask prediction. 
+
+================
+
