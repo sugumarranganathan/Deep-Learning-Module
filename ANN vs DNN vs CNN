@@ -1,0 +1,156 @@
+ANN = Artificial Neural Network (basic neural network)
+
+DNN = Deep Neural Network (ANN with multiple hidden layers)
+
+CNN = Convolutional Neural Network (specialized DNN for image processing)
+
+One-Line Answer
+
+DNN is a deep version of ANN containing multiple hidden layers, whereas CNN is a specialized DNN used for image and video processing. 
+
+===========
+
+ANN vs DNN vs CNN
+
+| Feature            | ANN                                     | DNN                                 | CNN                                            |
+| ------------------ | --------------------------------------- | ----------------------------------- | ---------------------------------------------- |
+| Full Form          | Artificial Neural Network               | Deep Neural Network                 | Convolutional Neural Network                   |
+| Structure          | Input + 1 or Few Hidden Layers + Output | Input + Many Hidden Layers + Output | Convolution + Pooling + Fully Connected Layers |
+| Data Type          | Structured Data                         | Large Complex Data                  | Images & Videos                                |
+| Feature Extraction | Manual                                  | Learns Features                     | Automatically Learns Image Features            |
+| Accuracy           | Lower                                   | Higher                              | Very High for Images                           |
+| Training Time      | Fast                                    | Moderate                            | High                                           |
+| Image Processing   | Not Suitable                            | Limited                             | Excellent                                      |
+| Examples           | Salary Prediction                       | Speech Recognition                  | Face Detection                                 |
+
+==========
+
+1. ANN
+Structure
+Input Layer
+      ↓
+Hidden Layer
+      ↓
+Output Layer
+Example
+Age
+Salary
+Experience
+      ↓
+ANN
+      ↓
+Employee Promotion
+Used For
+House Price Prediction
+Student Result Prediction
+Salary Prediction
+Loan Approval
+2. DNN
+Structure
+Input Layer
+      ↓
+Hidden Layer 1
+      ↓
+Hidden Layer 2
+      ↓
+Hidden Layer 3
+      ↓
+Hidden Layer 4
+      ↓
+Output Layer
+Why "Deep"?
+
+Because it contains multiple hidden layers.
+
+Used For
+Speech Recognition
+NLP
+Recommendation Systems
+Fraud Detection
+3. CNN
+Structure
+Image
+   ↓
+Convolution Layer
+   ↓
+Pooling Layer
+   ↓
+Fully Connected Layer
+   ↓
+Output
+Why CNN?
+
+CNN is specially designed for images.
+
+It automatically learns:
+
+Edges
+Shapes
+Patterns
+Objects
+Faces
+Used For
+Face Recognition
+Face Mask Detection
+Object Detection
+Medical Imaging
+Vehicle Detection
+Easy Interview Diagram
+ANN
+Input
+  ↓
+Hidden
+  ↓
+Output
+DNN
+Input
+  ↓
+Hidden
+  ↓
+Hidden
+  ↓
+Hidden
+  ↓
+Output
+CNN
+Image
+  ↓
+Convolution
+  ↓
+Pooling
+  ↓
+Fully Connected
+  ↓
+Output
+Real-Time Examples
+Application	Model
+House Price Prediction	ANN
+Credit Card Fraud Detection	DNN
+Face Mask Detection	CNN (MobileNetV2)
+Vehicle Detection	CNN (YOLO)
+Face Recognition	CNN (FaceNet)
+Chatbot/NLP	DNN
+Your Face Mask Project
+Face Detection
+      ↓
+OpenCV DNN SSD
+      ↓
+Face ROI
+      ↓
+MobileNetV2 (CNN)
+      ↓
+Mask / No Mask
+Viva Answer
+
+ANN is a basic neural network with one or few hidden layers.
+
+DNN is an ANN with many hidden layers, making it deeper and more powerful.
+
+CNN is a specialized DNN designed for image and video processing using convolution and pooling operations.
+
+One-Line Answer
+
+ANN → Basic Neural Network, DNN → Deep ANN with many hidden layers, CNN → Specialized DNN for image processing. 
+
+===========
+
