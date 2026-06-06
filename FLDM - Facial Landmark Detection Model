@@ -1,0 +1,7 @@
+FLDM - Facial Landmark Detection Model
+======================================
+
+Definition:
+
+FLDM is a computer vision model that detects important facial keypoints and landmarks for face recognition, 
+emotion detection, face filters, and deepfake applications.
