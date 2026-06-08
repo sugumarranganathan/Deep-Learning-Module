@@ -1,0 +1,123 @@
+Deep Learning Module – Question Bank - Batch 1
+
+1. Multiple Choice Questions (MCQs) – 15 Questions
+
+1. What is the basic unit of an Artificial Neural Network?
+A) Neuron
+B) Pixel
+C) Layer
+D) Weight
+
+(Answer: A)
+
+2. Which activation function is commonly used in hidden layers of a neural network?
+A) Linear
+B) ReLU
+C) Sigmoid
+D) Softmax
+
+(Answer: B)
+
+3. What is the role of bias in a neural network?
+A) It improves the learning rate
+B) It shifts the activation function
+C) It increases the number of layers
+D) It prevents overfitting
+
+(Answer: B)
+
+4. What does gradient descent do in neural networks?
+A) Reduces the loss function
+B) Increases model complexity
+C) Normalizes the dataset
+D) Prevents overfitting
+
+(Answer: A)
+
+5. Which parameter controls how much we adjust weights in gradient descent?
+A) Loss function
+B) Learning rate
+C) Epochs
+D) Number of neurons
+
+(Answer: B)
+
+6. What happens if the learning rate is too low?
+A) The model may take too long to converge
+B) The model will diverge
+C) The model will overfit
+D) The model will have high variance
+
+(Answer: A)
+
+7. What is the main advantage of CNNs over regular neural networks for image data?
+A) They require less training data
+B) They capture spatial hierarchies of features
+C) They use less computation
+D) They do not require activation functions
+
+(Answer: B)
+
+8. What is the function of the pooling layer in a CNN?
+A) To increase feature maps
+B) To reduce spatial size
+C) To perform classification
+D) To add more layers
+
+(Answer: B)
+
+9. What type of convolution is commonly used in object detection models?
+A) 1x1 Convolution
+B) Dilated Convolution
+C) Strided Convolution
+D) Depthwise Separable Convolution
+
+(Answer: D)
+
+10. What is Transfer Learning?
+A) Training a model from scratch
+B) Using a pre-trained model for a new task
+C) Transferring data between neural networks
+D) Using neural networks without training
+
+(Answer: B)
+
+11. Which of the following is a popular deep learning model used for Transfer Learning?
+A) SVM
+B) VGG16
+C) K-Nearest Neighbors
+D) XGBoost
+
+(Answer: B)
+
+12. What is a key requirement for training a face mask detection model?
+A) A dataset with labeled masked and unmasked faces
+B) A dataset with only unmasked faces
+C) A dataset of landscape images
+D) A dataset of animal faces
+
+(Answer: A)
+
+13. Which type of neural network is best suited for face mask detection?
+A) Recurrent Neural Network (RNN)
+B) Convolutional Neural Network (CNN)
+C) Multi-layer Perceptron (MLP)
+D) Radial Basis Function Network
+
+(Answer: B)
+
+14. Which of the following techniques can help improve the accuracy of a face mask detection model?
+A) Data Augmentation
+B) Increasing the number of pooling layers
+C) Reducing the dataset size
+D) Using Sigmoid activation for all layers
+
+(Answer: A)
+
+15. While evaluating a face mask detection model, which metric is most useful for handling imbalanced datasets?
+A) Accuracy
+B) Precision
+C) F1 Score
+D) Mean Squared Error
+
+(Answer: C)
