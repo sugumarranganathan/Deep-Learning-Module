@@ -1,0 +1,88 @@
+Scenario 1: Image Classification Model Overfits Quickly:
+
+You're training a CNN to classify dog breeds. You achieve 98% accuracy on training data within 5 epochs,
+but validation accuracy stays at 60%, and test performance is poor.
+
+| Field    | Details                                                                                                                                            |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project  | Dog Breed Classification using CNN                                                                                                                 |
+| Problem  | Training accuracy reaches 98% within 5 epochs, but validation accuracy remains at 60% and test performance is poor.                                |
+| Cause    | Overfitting due to a small dataset or overly complex model.                                                                                        |
+| Solution | 1. Add Dropout and Batch Normalization.<br>2. Use Data Augmentation.<br>3. Apply Early Stopping.<br>4. Use a pretrained model (Transfer Learning). |
+
+
+==============
+Scenario 2: ANN Fails to Learn Non-Linear Patterns
+Project: Simple digit classification using Artificial Neural Network (ANN)
+Problem: Accuracy stuck around 50%; adding more epochs doesn’t improve performance.
+
+
+| Field    | Details                                                                                                                   |
+| -------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Project  | Digit Classification using ANN                                                                                            |
+| Problem  | Accuracy remains around 50% even after increasing epochs.                                                                 |
+| Cause    | ANN cannot effectively capture complex non-linear image features.                                                         |
+| Solution | 1. Replace ANN with CNN for image tasks.<br>2. Normalize input images.<br>3. Use ReLU activation instead of Sigmoid/Tanh. |
+
+=============
+
+Scenario 3: CNN Model Predicts Same Class for All Images
+Project: Face Mask Detection using CNN
+Problem: Model always predicts "With Mask" for every test image.
+
+| Field    | Details                                                                                                                                                      |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Project  | Face Mask Detection using CNN                                                                                                                                |
+| Problem  | Model always predicts "With Mask" for every image.                                                                                                           |
+| Cause    | Dataset is likely imbalanced.                                                                                                                                |
+| Solution | 1. Use class weights during training.<br>2. Resample or balance the dataset.<br>3. Monitor Confusion Matrix, Precision, and Recall instead of only Accuracy. |
+
+=============
+
+Scenario 4: Object Detection Model Detects Objects but Bounding Boxes Are Misaligned
+ Project: YOLOv8 used for Tiger Detection in Forest
+ Problem: Bounding boxes do not fit objects properly.
+
+| Field    | Details                                                                                                                                                                                     |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project  | Tiger Detection using YOLOv8                                                                                                                                                                |
+| Problem  | Detected bounding boxes do not fit the objects correctly.                                                                                                                                   |
+| Cause    | Incorrect annotation format or labeling errors.                                                                                                                                             |
+| Solution | 1. Verify YOLO annotation format: (class_id, x_center, y_center, width, height).<br>2. Ensure coordinates are normalized.<br>3. Validate labels using Roboflow or CVAT visualization tools. |
+
+
+=============
+
+Scenario 5: Face Mask Detection Gives High Accuracy but Performs Poorly on Real Faces
+Project: Real-time Face Mask Detection using CNN 
+Problem: High accuracy on test set, but poor real-time performance on webcam feed.
+
+
+| Field    | Details                                                                                                                                                                        |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Project  | Real-Time Face Mask Detection using CNN                                                                                                                                        |
+| Problem  | High test accuracy but poor webcam performance.                                                                                                                                |
+| Cause    | Training images differ from real-world webcam images in lighting and angles.                                                                                                   |
+| Solution | 1. Apply Data Augmentation (brightness, flip, rotation).<br>2. Collect webcam images and fine-tune the model.<br>3. Include diverse lighting and face angles in training data. |
+
+
+============
+
+Scenario 6: CNN-Based Object Detector Struggles at Night
+Project: YOLOv8-based object detection in CCTV
+Problem: Model doesn’t detect objects in dark/night images
+
+
+| Field    | Details                                                                                                                                                |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Project  | YOLOv8-based CCTV Object Detection                                                                                                                     |
+| Problem  | Model fails to detect objects in dark or night images.                                                                                                 |
+| Cause    | Training data lacks night-time and low-light images.                                                                                                   |
+| Solution | 1. Train with night-mode images.<br>2. Apply brightness and contrast augmentation.<br>3. Use Histogram Equalization or CLAHE preprocessing techniques. |
+
+
+===========
+
+
+
+
