@@ -1,1 +1,123 @@
-s
+Deep Learning Module – Question Bank - Batch 1
+
+1. Multiple Choice Questions (MCQs) – 15 Questions
+
+1. What is an epoch in deep learning?
+A) One forward pass of all training data
+B) One backward pass of all training data
+C) One complete cycle of forward and backward pass
+D) A single neuron activation
+
+(Answer: C)
+
+2. In a neural network, what connects the neurons of one layer to the next?
+A) Bias
+B) Activation Function
+C) Weights
+D) Loss Function
+
+(Answer: C)
+
+3. What is the primary reason for using multiple hidden layers in a neural network?
+A) To increase training time
+B) To capture complex patterns and features
+C) To reduce the number of parameters
+D) To prevent overfitting
+
+(Answer: B)
+
+4. What is the objective of a loss function in a neural network?
+A) Maximize accuracy
+B) Minimize error
+C) Optimize learning rate
+D) Adjust neurons
+
+(Answer: B)
+
+5. Which of the following is a challenge with gradient descent?
+A) Model generalization
+B) Vanishing Gradient Problem
+C) Improved accuracy
+D) Fast convergence
+
+(Answer: B)
+
+6. Which optimizer is commonly used in deep learning due to its adaptive learning rate?
+A) SGD (Stochastic Gradient Descent)
+B) Adam
+C) RMSprop
+D) Momentum
+
+(Answer: B)
+
+7. What is backpropagation used for in neural networks?
+A) To move data backward through the network
+B) To calculate and update weights using gradients
+C) To initialize neural network weights
+D) To reduce model complexity
+
+(Answer: B)
+
+8. Which type of layer is responsible for feature extraction in a CNN?
+A) Dense Layer
+B) Convolutional Layer
+C) Pooling Layer
+D) Activation Layer
+
+(Answer: B)
+
+9. What is the purpose of the MaxPooling layer in CNNs?
+A) To extract important features and reduce dimensions
+B) To add more convolution filters
+C) To perform normalization
+D) To apply activation functions
+
+(Answer: A)
+
+10. Which filter size is typically preferred to capture fine image details?
+A) 1×1
+B) 3×3
+C) 5×5
+D) 7×7
+
+(Answer: B)
+
+11. In a CNN, what does a higher number of filters in a convolutional layer typically achieve?
+A) Faster training time
+B) Reduced model complexity
+C) Learning more features
+D) Reduced memory usage
+
+(Answer: C)
+
+12. Which of the following is a commonly used image classification model for Transfer Learning?
+A) AlexNet
+B) GPT-4
+C) RNN
+D) DBSCAN
+
+(Answer: A)
+
+13. Why is Transfer Learning beneficial for small datasets?
+A) It reduces the number of parameters
+B) It requires less computation
+C) It uses knowledge from pretrained models to extract useful features
+D) It uses unsupervised learning techniques
+
+(Answer: C)
+
+14. Which activation function is commonly used in the output layer for binary face mask detection?
+A) Sigmoid
+B) ReLU
+C) Tanh
+D) Softmax
+
+(Answer: A)
+
+15. In face mask detection, what is a good technique to reduce false positives?
+A) Increase the number of pooling layers
+B) Apply data augmentation
+C) Reduce the number of convolution layers
+D) Use a linear activation function
+
+(Answer: B)
