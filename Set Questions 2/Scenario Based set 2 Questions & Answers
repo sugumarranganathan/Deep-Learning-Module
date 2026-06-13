@@ -1,0 +1,125 @@
+Scenario 1: Pretrained Model Predicts Only One Class in Object Detection
+
+Project: Helmet Detection using YOLOv5
+
+Problem: Despite having multiple classes in the dataset, the model predicts only "helmet" for every object.
+
+Cause: Incorrect annotations, missing labels, wrong class count configuration, or dataset imbalance.
+
+Solution:
+
+Verify dataset annotations.
+Check label files for all classes.
+Ensure correct number of classes in YOLO configuration.
+Balance the dataset across all classes.
+
+==============
+
+Scenario 2: Transfer Learning Model Trains Too Slowly on Small Dataset
+
+Project: Face Mask Classification using ResNet50
+
+Problem: Training takes too long and does not converge well on a small dataset (500 images).
+
+Cause: Fine-tuning the entire pretrained model on a small dataset.
+
+Solution:
+
+Freeze early layers.
+Train only the final classification layers.
+Use ResNet50 as a feature extractor.
+Reduce trainable parameters.
+
+
+============
+
+Scenario 3: Transfer Learning Works on Training Data but Fails on New Environment
+
+Project: Tiger Detection using YOLOv8
+
+Problem: Model performs well on daytime images but fails on night-time CCTV footage.
+
+Cause: Domain shift between training data and deployment environment.
+
+Solution:
+
+Collect night-time images.
+Fine-tune the model using night-time data.
+Apply brightness and contrast augmentation.
+Train with diverse lighting conditions.
+
+======
+
+
+Scenario 4: Object Detection Model Shows Bounding Boxes but Misses Object
+
+Project: Vehicle Detection using YOLOv5
+
+Problem: Bounding boxes are displayed but are not aligned with objects correctly.
+
+Cause: Incorrect YOLO label format or image resizing mismatch.
+
+Solution:
+
+Verify YOLO label format [class_id, x_center, y_center, width, height].
+Ensure coordinates are normalized.
+Use consistent image sizes during training and testing.
+Validate annotation quality.
+
+=============
+
+Scenario 5: Model Gives High mAP on Training But Low Real-Time Accuracy
+
+Project: Multi-Class Safety Equipment Detection using YOLOv8
+
+Problem: The model achieves 90% mAP on the test set but performs poorly on real-time webcam input.
+
+Cause: Resolution mismatch, camera angle differences, image quality issues, and dataset bias.
+
+Solution:
+
+Match webcam resolution with training data.
+Collect webcam samples and fine-tune the model.
+Improve dataset diversity.
+Apply Test-Time Augmentation (TTA).
+
+=========
+
+Scenario 6: VGG16 Model Very Slow During Training
+
+Project: Fashion Product Classification using VGG16
+
+Problem: Model training is extremely slow even with a small dataset and batch size.
+
+Cause: VGG16 contains a large number of parameters and requires significant computation.
+
+Solution:
+
+Freeze convolutional layers.
+Use feature extraction mode.
+Replace heavy fully connected layers with a lightweight classifier.
+Reduce model complexity.
+
+
+=========
+
+
+Scenario 7: InceptionV3 Fails to Train Due to Input Size Mismatch
+
+Project: Dog Breed Classification using InceptionV3
+
+Problem: Runtime error occurs during training due to input image size mismatch.
+
+Cause: InceptionV3 expects images of size 299×299, but a different image size is provided.
+
+Solution:
+
+Resize all images to 299×299.
+Use the same size for training and validation datasets.
+Verify the preprocessing pipeline.
+Match the model input shape with image dimensions.
+
+
+
+
+
